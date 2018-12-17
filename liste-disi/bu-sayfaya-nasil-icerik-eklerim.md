@@ -36,5 +36,5 @@ Frcturkey Repositoriesine gelip "create new file" butonuna basın. Ardından olu
 
 ### Bizim Size Sağladığımız Katkılar
 
-Düzenlediğiniz, eklediğiniz içerikler için learn.frcturkey.com adresinde  içeriğinizin altın size veya takımınıza özel teşekkür ediyoruz. Aynı zamanda eğer yazılım ile ilgileniyorsanız github adresimize yaptığınız destek size ileride iş mülakatlarınız için github üzerinde iyi bir referans olacaktır.
+Düzenlediğiniz, eklediğiniz içerikler için learn.frcturkey.com adresinde  içeriğinizin altına size veya takımınıza özel teşekkür ediyoruz. Aynı zamanda eğer yazılım ile ilgileniyorsanız github adresimize yaptığınız destek size ileride iş mülakatlarınız için github üzerinde iyi bir referans olacaktır.
 
