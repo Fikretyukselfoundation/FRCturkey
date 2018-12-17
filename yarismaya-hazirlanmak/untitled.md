@@ -1,7 +1,3 @@
----
-description: içerik gelecek
----
-
 # Gönüllü Pozisyonları
 
 ### Judge / Judge Advisor /Judge Assistant
