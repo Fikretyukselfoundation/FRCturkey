@@ -2,7 +2,9 @@
 
 ### Herhangi bir içeriği düzenlemek
 
-Girdiğiniz içeriğin sağ üst kısmında bulunan Edit on Github butonuna tıklayarak ilgili github sayfasına gidebilirsiniz. Ardından edit butonuna basarak içeriğe eklemeler yapıp geliştirebilir veya hataları düzenleyebilirsiniz.
+Girdiğiniz içeriğin sağ üst kısmında bulunan Edit on Github butonuna tıklayarak ilgili github sayfasına gidebilirsiniz. Ardından edit butonuna basarak içeriğe eklemeler yapıp geliştirebilir veya hataları düzenleyebilirsiniz. 
+
+**Not: İçerikler yetkili kişiler tarafından incelendikten sonra yayına alınacaktır.**
 
 ![Edit on Github butonunun bulundu&#x11F;u yer](../.gitbook/assets/1.png)
 
@@ -14,6 +16,8 @@ Girdiğiniz içeriğin sağ üst kısmında bulunan Edit on Github butonuna tık
 
 [https://github.com/Fikretyukselfoundation/FRCturkey](https://github.com/Fikretyukselfoundation/FRCturkey) adresine giderek uygun başlığa tıklayıp sağ üst köşede bulunan "create new file" butonuna basın. Ardından içeriğinizi ekleyip uygun bir isim verip kaydedin.
 
+ **Not: İçerikler yetkili kişiler tarafından incelendikten sonra yayına alınacaktır.**
+
 ![Yeni i&#xE7;erik olu&#x15F;turmak](../.gitbook/assets/5.png)
 
 ![&#x130;&#xE7;eri&#x11F;inize isim vermek ve yazmak](../.gitbook/assets/4.png)
@@ -24,7 +28,9 @@ Girdiğiniz içeriğin sağ üst kısmında bulunan Edit on Github butonuna tık
 
 ### İçeriğim hiç bir başlığa uymuyor
 
-Frcturkey Repositoriesine gelip "create new file" butonuna basın. Ardından oluşturmak istediğiniz başlığı yazıp sonuna / ekleyip dosya adınızı ekleyin. Yani mekanik/cnc kullanımı.md gibi.
+Frcturkey Repositoriesine gelip "create new file" butonuna basın. Ardından oluşturmak istediğiniz başlığı yazıp sonuna / ekleyip dosya adınızı ekleyin. Yani mekanik/cnc kullanımı.md gibi
+
+. **Not: İçerikler yetkili kişiler tarafından incelendikten sonra yayına alınacaktır.**
 
 ![](../.gitbook/assets/testst.gif)
 
