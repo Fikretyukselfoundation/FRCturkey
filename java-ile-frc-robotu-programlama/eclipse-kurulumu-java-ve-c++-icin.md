@@ -27,7 +27,7 @@ Not: C++ ile geliştirme yapacak olsanız bile geliştirme programı olan Eclips
 
 ### C++ araçlarının kurulumu \(Sadece C++ kullanan takımlar için\)
 
-![!Daha &#xF6;nceki sezonlardan Toolchain y&#xFC;klemesi yapt&#x131;ysan&#x131;z, bunlar&#x131; Y&#xFC;kle/Kald&#x131;r arac&#x131;l&#x131;&#x11F;&#x131;yla kald&#x131;r&#x131;p yenisini y&#xFC;klemelisiniz.](../.gitbook/assets/image%20%2857%29.png)
+![!Daha &#xF6;nceki sezonlardan Toolchain y&#xFC;klemesi yapt&#x131;ysan&#x131;z, bunlar&#x131; Y&#xFC;kle/Kald&#x131;r arac&#x131;l&#x131;&#x11F;&#x131;yla kald&#x131;r&#x131;p yenisini y&#xFC;klemelisiniz.](../.gitbook/assets/image%20%2860%29.png)
 
 İşletim sisteminiz için uygun olan C++ Toolchain yükleyicisini bu adresten bulabilirsiniz [http://first.wpi.edu/FRC/roborio/toolchains/](http://first.wpi.edu/FRC/roborio/toolchains/)​
 
@@ -58,25 +58,25 @@ Eclipse artık .exe yükleyiciler de sağlamaktadır. İlerideki birkaç talimat
 
 **Eclipse RAR dosyasını açın ve içeriğini Program Dosyaları’na çıkarın**
 
-![Zip dosyas&#x131;n&#x131;n i&#xE7;eri&#x11F;ini &#xE7;&#x131;karmak i&#xE7;in windows taray&#x131;c&#x131;s&#x131; penceresinde dosyay&#x131; sa&#x11F; t&#x131;klay&#x131;n ve &quot;Hepsini &#xE7;&#x131;kar...&quot; se&#xE7;ene&#x11F;ini se&#xE7;in. &#xC7;&#x131;karma konumu soruldu&#x11F;unda varsay&#x131;lan se&#xE7;ene&#x11F;i se&#xE7;in.](../.gitbook/assets/image%20%2880%29.png)
+![Zip dosyas&#x131;n&#x131;n i&#xE7;eri&#x11F;ini &#xE7;&#x131;karmak i&#xE7;in windows taray&#x131;c&#x131;s&#x131; penceresinde dosyay&#x131; sa&#x11F; t&#x131;klay&#x131;n ve &quot;Hepsini &#xE7;&#x131;kar...&quot; se&#xE7;ene&#x11F;ini se&#xE7;in. &#xC7;&#x131;karma konumu soruldu&#x11F;unda varsay&#x131;lan se&#xE7;ene&#x11F;i se&#xE7;in.](../.gitbook/assets/image%20%2884%29.png)
 
  **RAR'dan çıkarılmış eclipse klasörünü Program Dosyaları’na taşıyın**  
 
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
  Arşivden çıkarılmış klasörü Program Dosyaları, veya kolayca çalıştırmak için daha uygun bir yere taşıyın. Eclipse klasörünün içinde ‘eclipse.exe’ dosyasını göreceksiniz. Bu dosyayı sağ tıklayınca ortaya çıkan ‘Başlangıç menüsüne tuttur’ seçeneği ile programı çalıştırmayı daha kolay bir hale getirebilirsiniz.
 
  **Eclipse’i ilk kez çalıştırmak**  
 
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2843%29.png)
 
  Eclipse’i başlatın \(eğer bir önceki adımda tutturmayı seçtiyseniz başlangıç menünüzde olacaktır.\) Eclipse ilk kez çalıştırıldığında size ‘çalışma alanı’ \(workspace\) için bir konum soracaktır. Çalışma alanı varsayılan olarak projelerin ve dosyaların saklandığı yerdir. Birden fazla çalışma alanınız olabilir, fakat Eclipse ile daha fazla deneyiminiz olana kadar varsayılan konumu seçmenizi öneririz.
 
 ### Java Eclipse’ine C++ eklemek
 
-![&#x2018;E&#x11F;er C++ men&#xFC;de yoksa s&#x131;radaki ad&#x131;m&#x131; uygulay&#x131;n. E&#x11F;er varsa s&#x131;radaki ad&#x131;m&#x131; atlayabilirsiniz.&#x2019;](../.gitbook/assets/image%20%2837%29.png)
+![&#x2018;E&#x11F;er C++ men&#xFC;de yoksa s&#x131;radaki ad&#x131;m&#x131; uygulay&#x131;n. E&#x11F;er varsa s&#x131;radaki ad&#x131;m&#x131; atlayabilirsiniz.&#x2019;](../.gitbook/assets/image%20%2839%29.png)
 
  Eclipse’in Java sürümünü kullanarak C++ programlaması yapabilmek için C++ Geliştirme Araçları’nı \(C++ Development Tools \(CDT\)\) yüklemeniz gerekmektedir. Bunun halihazırda yüklü olup olmadığını görmek için menüden Pencere’yi \(Window\) ve daha sonra Seçenekler’i \(Preferences\) seçin. Daha sonra sol tarafta C/C++ seçeneğine bakın. Eğer orada değilse yüklemeniz gerekmektedir. Yükleme aşaması bir sonraki aşamada anlatılmıştır.
 
@@ -111,7 +111,7 @@ Bu adımlar tamamlanıp Eclipse yeniden başladığında Seçenekler menüsünde
 
 ### Java Geliştirme Araçlarının Yüklenmesi
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2840%29.png)
 
 Önceki adımdaki seçenekler menüsünde Java görünmüyorsa, bu mutlaka yüklenmelidir.
 
@@ -133,7 +133,7 @@ Bu adımlar tamamlandığında ve Eclipse yeniden başladığında seçenekler p
 
 ### Eclipse JDK ayarlanması \(Sadece Java kullanan takımlar için\)
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 1. Yukarıdaki menü bardan Pencereler’i \(Windows\) ve daha sonra Seçenekler’i \(Preferences\) seçin.
 
@@ -145,7 +145,7 @@ Eğer bu aşamada hiçbir dosya görmüyorsanız, veya gösterilen tek dosyanın
 
 ### Eclipse'i yapılandırma
 
-![](../.gitbook/assets/image%20%2890%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 Eclipse için çok sayıda yapılandırma seçeneği vardır. Not etmek için önerilen bir ayar: "oluşturmadan önce otomatik olarak kaydedin."Bu ayar, projeyi oluşturduğunuzda" çalışma alanınızın " tüm değişikliklerinin kaydedilmesine neden olacaktır. Bunu istemiyorsanız, yapılandırmadan önce değişiklikleri kaydetmeyi unutmayın, aksi takdirde yeniden oluşturulmuş program en yeni güncellemelerinizi yansıtmayacaktır.
 
@@ -188,7 +188,7 @@ Güncellenmiş eklentiler de bir problem olursa, bu işlemi tekrarlayabilirsiniz
 
 ### Geliştirme eklentilerini yükleme - 2. Seçenek: Çevrimdışı kurulum
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 
 

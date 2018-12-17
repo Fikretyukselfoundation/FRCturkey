@@ -27,11 +27,11 @@ Genel olarak Driver Station PC'sine USB üzerinden bağlanan nesneler, bağland�
 
 ### **Sınıf, yöntem ve değişken adlandırma**
 
-![](../.gitbook/assets/image%20%2835%29.png)
+![](../.gitbook/assets/image%20%2837%29.png)
 
 ### MXP IO Numarlandırılması
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2895%29.png)
 
 ### Java'da multithreading
 
