@@ -64,5 +64,42 @@ Genellikle FRC'de kullanılan kameralar \(Axis kamera gibi USB ve Ethernet kamer
 
 CameraServer'daki her kamera benzersiz bir şekilde adlandırılmalıdır. Bu ayrıca, Panodaki kamera için görünen addır. CameraServer startAutomaticCapture \(\) ve addAxisCamera \(\) işlevlerinin bazı türevleri otomatik olarak kamerayı \(ör. "USB Camera 0" veya "Axis Camera"\) adlandırır veya kameraya daha açıklayıcı bir ad verebilirsiniz \(örn. "Intake Cam"\). Tek gereksinim, her kameranın kendine özgü bir adı olmasıdır.
 
+#### USB kamera ile ilgili notlar
 
+#### CPU kullanımı
+
+CameraServer ile CPU Kullanımı, gerektiğinde sadece sıkıştırma ve açma işlemlerini gerçekleştirerek , herhangi bir istemci bağlı olmadığında akışı otomatik olarak devre dışı bırakarak CPU kullanımını en aza indirecek şekilde tasarlanmıştır.
+
+CPU kullanımını en aza indirmek için, gösterge paneli çözünürlüğü kamerayla aynı çözünürlüğe ayarlanmalıdır; Bu, CameraServer'ın görüntüyü sıkıştırmasını ve yeniden sıkıştırmasını sağlamaz, bunun yerine resim gösterge panelinden alınan JPEG görüntüsünü doğrudan panoya iletebilir. Kontrol panelindeki çözünürlüğü değiştirmenin \* kamera çözünürlüğünü değiştirmediğini unutmayın. kamera çözünürlüğünü değiştirmek, NetworkTables üzerinden veya robot kodunuzda \(kamera nesnesinde setResolution öğesini çağırarak\) yapılabilir.
+
+#### USB Bant Genişliği
+
+Roborio, USB arabirimleri üzerinden tek seferde çok fazla veri iletebilir ve alabilir. Kamera görüntüleri çok fazla veri gerektirebilir ve bu yüzden bant genişliği limitini aşmak nispeten kolaydır. Bir USB bant genişliği hatasının en yaygın nedeni, özellikle birden çok kamera bağlı olduğunda, JPEG olmayan bir video modunun seçilmesi veya çok yüksek çözünürlükte çalışmasıdır.
+
+#### Mimari
+
+2017 için CameraServer iki katmandan, yüksek seviyeli WPILib CameraServer sınıfından ve düşük seviyeli cscore kitaplığından oluşmaktadır.
+
+#### CameraServer sınıfı
+
+CameraServer sınıfı \(WPILib'in bir parçası\) robot kodunuza kamera eklemek için yüksek düzeyde bir arabirim sağlar. Ayrıca kameralar ve kamera sunucuları hakkındaki bilgileri NetworkTable'lara yayınlamaktan sorumludur, böylece LabView Dashboard ve SmartDashboard gibi Sürücü İstasyonu kontrol panelleri kameraları listeleyebilir ve akışlarının nerede bulunduğunu belirleyebilir. Oluşturulan tüm kameraların ve sunucuların bir veritabanını korumak için tek bir desen kullanır.
+
+CameraServer'daki bazı temel işlevler şunlardır:
+
+
+
+* startAutomaticCapture \(\): Bir USB kamera \(ör. Microsoft LifeCam\) ekleyin ve bunun için bir sunucu başlatır, böylece panodan görüntülenebilir.
+* addAxisCamera \(\): Bir axis kamerası eklemek için kullanılır. Robot kodunuzda Axis kameranın görüntülerini işlemiyor olsanız bile, bu işlevi Axis kamerasının Pano'nun açılır menü listesinde görünmesi için kullanabilirsiniz. Aynı zamanda bir sunucu başlatır, böylece sürücü istasyonunuz USB üzerinden roboRio'ya bağlandığında axis akışı hala görüntülenebilir \(hem Axis kameranız hem de iki robot radyo Ethernet portuna bağlı roboRio varsa yarışmada kullanışlıdır\).
+* getVideo \(\): Bir kameraya OpenCV erişimi edinin. Bu, roboRio'da \(robot kodunuzda\) görüntü işleme için kameradan görüntüler almanızı sağlar. 
+* putVideo \(\): OpenCV görüntülerini besleyebileceğiniz bir sunucu başlatın. Bu, özel işlenmiş ve / veya açıklamalı görüntüleri panoya aktarmanıza olanak tanır.
+
+#### Cscore Kütüphanesi
+
+Cscore kütüphanesi alt seviye uygulamasına aşağıdakileri sağlar:
+
+* USB ve HTTP \(örneğin, axis kamera\) kameralarından görüntüler alın
+* Kamera ayarlarını değiştir \(ör. Kontrast ve parlaklık\)
+* Kamera video modlarını değiştir \(piksel formatı, çözünürlük ve kare hızı\)
+* Bir web sunucusu olarak hareket edin ve görüntüleri standart bir M-JPEG akışı olarak sunun
+* Görüntü işleme için görüntüleri OpenCV "Mat" nesnelerine dönüştürün
 
