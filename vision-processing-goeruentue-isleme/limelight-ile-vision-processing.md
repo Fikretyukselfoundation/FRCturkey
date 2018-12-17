@@ -1,7 +1,3 @@
----
-description: İçerik Hazırlanıyor...
----
-
 # Limelight ile Vision Processing
 
 ### Limelight Nedir?
