@@ -13,7 +13,7 @@ Command based programlama, robot programını daha az yapılandırılmış bir t
 
 #### Komutlar ve alt sistemler
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../.gitbook/assets/image%20%2834%29.png)
 
 WPILib kütüphanesine dayalı programlar iki temel kavram etrafında düzenlenmiştir: Alt Sistemler ve Komutlar.
 
@@ -23,19 +23,19 @@ Komutlar - alt sistemlerde tanımlanan yetenekleri içeren robotun çalışması
 
 #### Komutlar nasıl çalışır
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%28101%29.png)
 
 Komutlar, robotu küçük parçalar halinde çalıştırmanın görevlerini çözmenizi sağlar. Her komutun, bazı çalışma yapan bir execute \(\) yöntemi ve tamamlandığını söyleyen isFinished \(\) yöntemi vardır. Bu, sürücü istasyonundan veya her 20 ms'den bir güncellemede gerçekleşir. Komutlar birlikte gruplandırılabilir ve sıralı olarak gerçekleştirilebilir, bir önceki grupta olduğu gibi grupta bir sonraki başlar.
 
 ####  Eşzamanlılık
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../.gitbook/assets/image%20%2873%29.png)
 
 Bazen eşzamanlı olarak gerçekleşen çeşitli operasyonların olması arzu edilir. Önceki örnekte, asansör hareket ederken bileğerin konumunu ayarlamak isteyebilirsiniz. Bu durumda bir komut grubu çalışan bir paralel komut \(veya komut grubu\) başlatabilir.
 
 **Nasıl Çalışır - Komutları Zamanlama**
 
-![](../.gitbook/assets/image%20%2849%29.png)
+![](../.gitbook/assets/image%20%2850%29.png)
 
 Komutların planlandığı üç ana yol vardır:
 
@@ -51,13 +51,13 @@ Bir komut zamanlandığında, Zamanlayıcı, başka hiçbir komutun, yeni komutu
 
 #### Nasıl Çalışır - Komutları Çalıştırma
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../.gitbook/assets/image%20%2883%29.png)
 
 Yeni komutları kontrol ettikten sonra, programlayıcı aktif komutlar listesinden geçer ve her komutta execute \(\) ve isFinished \(\) yöntemlerini çağırır. Görünür eşzamanlı yürütmenin, programa karmaşıklık katacak iş parçacıkları veya görevler kullanılmadan gerçekleştirildiğine dikkat edin. Her bir komutun basitçe, hedefine doğru ilerlemek için bir kod \(yürütme yöntemi\) ve komutun hedefe ulaşıp ulaşmadığını belirleyen bir yöntem \(isFinished\) vardır. Execute ve isFinished yöntemleri tekrar tekrar denir.
 
 #### Komut grupları
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 Daha basit komutlardan daha karmaşık komutlar oluşturulabilir. Örneğin, bir diski çekmek, birbiri ardına yürütülen uzun bir komut dizisi olabilir. Belki sıradaki bu komutların bazıları eşzamanlı olarak yürütülebilir. Komut grupları komutlardır, ancak bir Tamamlanmamış ve yürütme yöntemine sahip olmak yerine, yürütmek için başka komutların bir listesi vardır. Bu, daha basit işlemlerden daha karmaşık işlemlerin oluşturulmasına olanak tanır, programlamada temel bir ilkedir. Bireysel küçük komutların her biri önce kolayca test edilebilir, daha sonra grup test edilebilir. Komut grupları hakkında daha fazla bilgi, Komut grubu oluşturma komutları makalesinde bulunabilir.
 
@@ -73,19 +73,19 @@ Proje gezgini penceresinde boş bir alanda sağ tıklayın. "New" i ve ardından
 
 #### Proje tipinin seçilmesi
 
-![](../.gitbook/assets/image%20%2831%29.png)
+![](../.gitbook/assets/image%20%2832%29.png)
 
 Gerekirse WPILib Robot C ++ veya Java Geliştirme klasörlerini genişletin ve uygun proje türünü seçin, Robot C ++ veya Java Project. Sadece yüklediğiniz eklentinin seçeneklerini göreceksiniz.
 
 #### Örnek Bir Proje Seçmek
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Proje isminizi kutuya yazıp Command-Based Robot için radyo düğmesini seçin.
 
 #### Proje Gezgini penceresindeki örnek projeye bakın
 
-![](../.gitbook/assets/image%20%2890%29.png)
+![](../.gitbook/assets/image%20%2891%29.png)
 
  CommandBasedRobotTemplate projesinin Project Explorer penceresinde bulunmuş olabilecek diğer projelere eklendiğine dikkat edin. Komutlar için bir klasör ve Alt sistemler için başka bir klasör var.
 
@@ -95,13 +95,13 @@ Komutlar ve Altsistemler her biri sınıf olarak oluşturulur. Eklenti, program�
 
 #### Projeye alt sistemler ekleme
 
-![](../.gitbook/assets/image%20%2816%29.png)
+![](../.gitbook/assets/image%20%2817%29.png)
 
 Bir alt sistem eklemek için, proje adına sağ tıklayın ve açılan menüden "new" ve "Subsystem" i seçin.
 
 #### Alt sistemi adlandırma
 
-![](../.gitbook/assets/image%20%2888%29.png)
+![](../.gitbook/assets/image%20%2889%29.png)
 
 Alt sistem için bir ad doldurun. Bu alt sistem için sonuçta ortaya çıkan sınıf adı olacaktır, bu nedenle adınız sizin diliniz için geçerli bir sınıf adı olmalıdır.
 
@@ -113,20 +113,20 @@ Projedeki Subsystems klasöründe oluşturulan yeni alt sistemi görebilirsiniz.
 
 #### Projeye bir komut eklemek
 
-![](../.gitbook/assets/image%20%2827%29.png)
+![](../.gitbook/assets/image%20%2828%29.png)
 
 Bir alt sistem oluşturmaya benzer adımlar kullanarak proje için bir komut oluşturulabilir. Proje Gezgini'nde proje adına ilk olarak sağ tıklayın ve new -&gt; Command seçin.  
 
 
 #### Komut adını ayarla
 
-![](../.gitbook/assets/image%20%2891%29.png)
+![](../.gitbook/assets/image%20%2892%29.png)
 
 Komut adını iletişim kutusundaki "Class Name" alanına girin. Bu, Komuta için sınıf adı olacaktır, bu nedenle diliniz için geçerli bir sınıf adı olmalıdır.
 
 #### Komut projede oluşturuldu
 
-![](../.gitbook/assets/image%20%2875%29.png)
+![](../.gitbook/assets/image%20%2876%29.png)
 
 Komutun Proje Gezgini penceresinde projedeki Komutlar klasöründe oluşturulduğunu görebilirsiniz. Komut oluşturma hakkında daha fazla bilgi için Basit Komutlar Oluşturma makalesine bakın.
 
@@ -544,7 +544,7 @@ Düğmeye basılı tutulduğunda kumanda düğmelerine basıldığında, serbest
 
 #### OI sınıfı
 
-![](../.gitbook/assets/image%20%2871%29.png)
+![](../.gitbook/assets/image%20%2872%29.png)
 
 Komut tabanlı şablon, Operatör Arayüzü davranışlarının tipik olarak tanımlandığı OI.java'da bulunan OI adında bir sınıf içerir. Eğer RobotBuilder kullanıyorsanız bu dosya org.usfirst.frc \#\#\#\#. NAME paketinde bulunabilir.  
 
@@ -1212,7 +1212,7 @@ Bu örnekte, bazı komutlar paralel olarak eklenir ve diğerleri CommandGroup Co
 
 #### Örnek Akış Şeması
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2858%29.png)
 
 Yukarıda gösterilen kod bir akış şeması olarak gösterilmiştir. "Add Parallel" kullanılarak planlanan komutlardan herhangi bir bağımlılık olmadığına dikkat edin, MoveBallToShooter komutuna ulaşıldığında bu komutların ikisi de veya ikisi de çalışıyor olabilir. Bir paralel komut tarafından kullanılan bir alt sistemi gerektiren ana dizideki \(burada sağdaki sıra\) herhangi bir komut, paralel komutun iptal edilmesine neden olur. Örneğin, FireSequence, SetVirtualSetpoint tarafından kullanılan bir alt sistem gerektiriyorsa, FireSequence zamanlandığında SetVirtualSetpoint komutu iptal edilir.
 

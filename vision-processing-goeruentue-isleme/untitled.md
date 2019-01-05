@@ -1,7 +1,3 @@
----
-description: İçerik Hazırlanıyor..
----
-
 # Görüntü İşleme Kaynakları
 
 ### Vision Processing Stratejileri
@@ -10,7 +6,7 @@ Vision Processing kullanmak, robotunuzun alandaki öğelere duyarlı olmasını 
 
 Görme işlemi için ve vizyon programının çalışması gereken bileşenleri seçmek için birçok seçenek vardır. WPILib ve ilgili araçlar bir dizi seçeneği destekler ve ekiplere ne yapacağına karar vermek için çok fazla esneklik sağlar. Bu makalede, mevcut olan birçok seçenek ile ilgili bazı bilgiler verilecektir.
 
-![](../.gitbook/assets/image%20%2859%29.png)
+![](../.gitbook/assets/image%20%2860%29.png)
 
 #### OpenCV Görüntü İşleme Kütüphanesi
 
@@ -18,7 +14,7 @@ OpenCV, akademi ve endüstri genelinde yaygın olarak kullanılan açık kaynakl
 
 **RoboRIO üzerinde vision kodu**
 
-![](../.gitbook/assets/image%20%2864%29.png)
+![](../.gitbook/assets/image%20%2865%29.png)
 
 Vision programı, genel robot programının sadece bir parçası olduğu için programlama oldukça basittir. Program elle veya GRIP tarafından C ++ veya Java ile yazılabilir. Dezavantajı, robot programı ile aynı işlemci üzerinde çalışan vision kodunun performans sorunları yaşayabilmesidir. Bu, robot ve vision programınızın gereksinimlerine bağlı olarak değerlendirmeniz gereken bir şeydir.
 
@@ -28,7 +24,7 @@ Video akışı kamera operatörü arayüzünü kullanarak SmartDashboard'a gönd
 
 **DS bilgisayarında vision kodu**
 
-![](../.gitbook/assets/image%20%2832%29.png)
+![](../.gitbook/assets/image%20%2833%29.png)
 
 Görüntü, işlem yapmak için Driver Station dizüstü bilgisayarına geri akışa alınmıştır. Classmate dizüstü bilgisayarlar vision işlemede roboRIO'dan daha hızlıdır fakat üzerinde çalışan gerçek zamanlı programlara sahip değildir. GRIP, dizüstü bilgisayarında doğrudan NetworkTables kullanarak robota gönderilen sonuçlarla birlikte çalıştırılabilir. Alternatif olarak, kendi vision programınızı seçtiğiniz bir dili kullanarak yazabilirsiniz. Yerel bir NetworkTables uygulaması ve OpenCV bağlantısı çok iyi olduğundan Python iyi bir seçimdir.
 
@@ -38,7 +34,7 @@ Görüntü akışı SmartDashboard veya GRIP'de görüntülenebilir.
 
 **Bir işlemci üzerinde vision kodu**
 
-![](../.gitbook/assets/image%20%2834%29.png)
+![](../.gitbook/assets/image%20%2835%29.png)
 
 Raspberry PI veya Kangaroo gibi iş süreçleri, görüntü kodunun desteklenmesi için idealdir. Avantajı, tam hız çalıştırabilmeleri ve robot programına müdahale etmemeleridir. Bu durumda, kamera büyük olasılıkla işlemciye\(Raspberry pi vb.\) veya \(ethernet kamera kullanıyorsanız\) robotun üzerindeki bir ethernet girişine bağlanır. Program, herhangi bir dilde yazılabilir, ancak OpenCV ve NetworkTable'lar için basit bağlantılardan dolayı Python iyi bir seçimdir. Bazı takımlar ve deneyimsiz programcılar için çok karmaşık olabilse de, Nvidia Jetson gibi işlemciler en yüksek hız ve en yüksek çözünürlük için yüksek performans sağlayabilmesi için kullanılabilir.
 

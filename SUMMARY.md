@@ -26,7 +26,7 @@
 ## Vision Processing - Görüntü İşleme
 
 * [Görüntü İşleme Kaynakları](vision-processing-goeruentue-isleme/untitled.md)
-* [Arkaplan](vision-processing-goeruentue-isleme/arkaplan.md)
+* [Co-processor - OpenCV ile Örnek Vision Processing Kodları](vision-processing-goeruentue-isleme/arkaplan.md)
 * [Kurulum](vision-processing-goeruentue-isleme/kurulum.md)
 * [Vision programlama](vision-processing-goeruentue-isleme/vision-programlama.md)
 * [Grip](vision-processing-goeruentue-isleme/grip.md)

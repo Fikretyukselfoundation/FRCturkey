@@ -2,7 +2,7 @@
 
 #### Malzemeleri Topla
 
-![](../.gitbook/assets/image%20%2878%29.png)
+![](../.gitbook/assets/image%20%2879%29.png)
 
 Aşağıdaki kontrol sistemi bileşenlerini ve araçlarını bulun
 
@@ -43,19 +43,19 @@ Gerekli Araçlar
 
 #### Çekirdek Kontrol Sistemi Bileşenlerini Düzenleme
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
 Bileşenleri tahtaya yerleştirin. Çalışması gereken bir düzen, yukarıdaki görüntülerde gösterilmektedir.
 
 #### Bileşenleri sabitleyin
 
-![](../.gitbook/assets/image%20%2844%29.png)
+![](../.gitbook/assets/image%20%2845%29.png)
 
 Çift taraflı bant veya veya amerikan kelepçe kullanarak, tüm bileşenleri panele sabitleyin. Birçok FRC oyununda robot bağlantısının önemli olabileceğini ve çift taraflı bantın tek başına birçok elektronik bileşeni tutma olasılığının az olduğunu unutmayın.Takımlar, bileşenlerini sabitlemek için somun ve civata tutturucular veya \(yukarıdaki resimde gösterildiği gibi\) amerikan kelepçe kullanmak isteyebilir.
 
 #### Batarya Konektörünü PDP'ye Takın
 
-![](../.gitbook/assets/image%20%2851%29.png)
+![](../.gitbook/assets/image%20%2852%29.png)
 
 Dikkat: Batarya Konektörüne bağlı olan kablolar 6AWG olmalıdır.
 
@@ -66,7 +66,7 @@ Dikkat: Batarya Konektörüne bağlı olan kablolar 6AWG olmalıdır.
 
 #### PDP ile şalteri kablolamak
 
-![](../.gitbook/assets/image%20%2855%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 Dikkat olması gereklidir: 6AWG kırmızı tel, 2x 6AWG terminal pabuçları, 5mm Alyan, 7/16 "
 
@@ -78,7 +78,7 @@ Bir terminal pabucunu 6AWG kırmızı telin ucuna sabitleyin. 7/16 "kutu ucunu k
 
 #### PDP bağlantılarını yalıtın
 
-![](../.gitbook/assets/image%20%2865%29.png)
+![](../.gitbook/assets/image%20%2866%29.png)
 
  Gerektirir : 1/16" Alyan, Elektrik bandı
 
@@ -100,9 +100,9 @@ Büyük Wago konektörü: 6AWG-12AWG kablo kabul eder.
 
 #### Motor Sürücü Gücü
 
-![](../.gitbook/assets/image%20%2889%29.png)
+![](../.gitbook/assets/image%20%2890%29.png)
 
-![](../.gitbook/assets/image%20%2830%29.png)
+![](../.gitbook/assets/image%20%2831%29.png)
 
 Gerektirir: bant, Küçük Düz Tornavida, 10 veya 12 AWG tel, 10 veya 12 AWG çatal / halka terminalleri, tel sıkıştırıcı
 
@@ -136,7 +136,7 @@ Bağlantıyı temizledikten sonra temiz ve güvenli olduğundan emin olun:
 
 #### roboRIO Gücü
 
-![](../.gitbook/assets/image%20%2825%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 Gerektirir: 10A / 20A mini sigortalar, Kablo soyucu, çok küçük düz tornavida, 18AWG Kırmızı ve Siyah
 
@@ -148,7 +148,7 @@ Gerektirir: 10A / 20A mini sigortalar, Kablo soyucu, çok küçük düz tornavid
 
 #### Voltaj Regülatörü Modülü 
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2894%29.png)
 
 Requires: Kablo soyucu, küçük düz uçlu tornavida\(isteğe bağlı\), 18AWG kırmızı ve siyah kablo
 
@@ -160,7 +160,7 @@ Requires: Kablo soyucu, küçük düz uçlu tornavida\(isteğe bağlı\), 18AWG 
 
 #### Pneumatics Control Module  \(İsteğe Bağlı\)
 
-![](../.gitbook/assets/image%20%2879%29.png)
+![](../.gitbook/assets/image%20%2880%29.png)
 
 
 
@@ -174,7 +174,7 @@ Gerektirir: Kablo soyucu, küçük düz tornavida \(isteğe bağlı\), 18AWG kı
 
 #### Radyo Gücü ve Ethernet
 
-![](../.gitbook/assets/image%20%2819%29.png)
+![](../.gitbook/assets/image%20%2820%29.png)
 
 Gerekenler: Küçük düz tornavida \(isteğe bağlı\), Rev kablosuz PoE kablosu
 
@@ -183,7 +183,7 @@ Gerekenler: Küçük düz tornavida \(isteğe bağlı\), Rev kablosuz PoE kablos
 
 #### Roborio'yu radyo ethernetine bağlamak
 
-![](../.gitbook/assets/image%20%2880%29.png)
+![](../.gitbook/assets/image%20%2881%29.png)
 
 Gerektirir : Ethernet Kablosu
 
@@ -197,11 +197,11 @@ Not: PCM, robot üzerindeki pnömatik kontrol için kullanılan isteğe bağlı 
 
 #### PDP CAN için PCM
 
-![](../.gitbook/assets/image%20%2838%29.png)
+![](../.gitbook/assets/image%20%2839%29.png)
 
 #### PWM Kabloları
 
-![](../.gitbook/assets/image%20%2815%29.png)
+![](../.gitbook/assets/image%20%2816%29.png)
 
 Seçenek 1 \(Doğrudan bağlantı\):  
 
@@ -215,7 +215,7 @@ Seçenek 2 \(Y kablosu\):
 
 #### Robot Sinyal Işığı
 
-![](../.gitbook/assets/image%20%2867%29.png)
+![](../.gitbook/assets/image%20%2868%29.png)
 
 Gerektirir: Kablo soyucu, 2 pin kablo, Robot Sinyal Işığı, 18AWG kırmızı kablo, çok küçük düz tornavida
 
@@ -229,13 +229,13 @@ RSL'yi robot inşa edildiğinde daha görünür bir yere taşımanız önerilir
 
 ####  Devre kesiciler
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2875%29.png)
 
 40 amperlik Devre Kesicileri, Talonların bağlı olduğu Wago konnektörlerine karşılık gelen PDP üzerindeki konumlara takın. Tüm kesiciler için kesicinin en yakın pozitif \(kırmızı\) terminale denk geldiğine dikkat edin \(yukarıdaki grafiğe bakınız\). Kart üzerindeki tüm negatif terminaller doğrudan dahili olarak bağlanır.
 
 #### Motor gücü
 
-![](../.gitbook/assets/image%20%2821%29.png)
+![](../.gitbook/assets/image%20%2822%29.png)
 
 Her bir CIM motoru için:
 
@@ -252,7 +252,7 @@ Entegre tel denetleyiciler\(kendi üzerinde kendiliğinden pwm kablosu olan sür
 
 #### Batarya bağlayın
 
-![](../.gitbook/assets/image%20%2886%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 
 ###  <a id="battery_box"></a>
 
