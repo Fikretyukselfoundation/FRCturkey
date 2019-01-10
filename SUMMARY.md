@@ -16,7 +16,6 @@
 * [WPILib sensörleri](java-ve-c-c++-ile-frc-robotu-programlama/wpilib-sensoerleri.md)
 * [Sürücü İstasyonu\(Driver Station\) Girişleri ve Geri Bildirim](java-ve-c-c++-ile-frc-robotu-programlama/sueruecue-istasyonu-driver-station-girisleri-ve-geri-bildirim.md)
 * [Command Based Programlama](java-ve-c-c++-ile-frc-robotu-programlama/command-based-programlama.md)
-* [FRC için Farklı bir IDE kullanmak](java-ve-c-c++-ile-frc-robotu-programlama/frc-icin-farkli-bir-ide-kullanmak.md)
 
 ## Labview İle FRC Robotu Programlama
 
@@ -32,6 +31,10 @@
 * [Vision programlama](vision-processing-goeruentue-isleme/vision-programlama.md)
 * [Grip](vision-processing-goeruentue-isleme/grip.md)
 * [Limelight ile Vision Processing](vision-processing-goeruentue-isleme/limelight-ile-vision-processing.md)
+
+## Genel Programlama
+
+* [FRC için Farklı bir IDE kullanmak](genel-programlama/frc-icin-farkli-bir-ide-kullanmak.md)
 
 ## FRC Elektronik
 
