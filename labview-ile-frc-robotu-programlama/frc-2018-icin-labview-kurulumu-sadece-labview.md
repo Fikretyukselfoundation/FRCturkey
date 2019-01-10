@@ -1,7 +1,3 @@
----
-description: FRC Labview kurulum hazırlıkları
----
-
 # FRC 2018 için Labview Kurulumu \(sadece LabVIEW\)
 
 ### Uninstall Old Versions \(Recommended\) <a id="uninstall-old-versions-recommended"></a>

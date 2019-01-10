@@ -1,4 +1,4 @@
-# Fotoğraf editlemek
+# Genel Donanım
 
 İçerik hazırlanıyor...
 
