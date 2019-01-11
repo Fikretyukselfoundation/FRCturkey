@@ -18,7 +18,15 @@ IDE \(Integrated Developement Environment\): Bilgisayar programcılarının yaz�
 
 **Eğer var olan bir projeniz yoksa**
 
-Projeniz yoksa ilk işiniz proje temel dosyalarını indirmek olacaktır. [GradleRIO](https://github.com/wpilibsuite/GradleRIO/releases) adresine giderek buradan en üstteki sürümden `java.zip`'i indiriyoruz. ![gradlerio](https://i.hizliresim.com/JZ3dGB.png) Ardından indirdiğimiz sıkıştırılmış klasördeki tüm dosyaları yeni açtığımız proje klasörüne çıkartıyoruz. Çıkarttıktan sonra proje dosyalarından **build.gradle**'da ufak ayarlar yapmamız gerekiyor. `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncelleyebilirsiniz. ![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png) En sonunda böyle bir satır elde etmeniz gerekiyor.
+Projeniz yoksa ilk işiniz proje temel dosyalarını indirmek olacaktır. [GradleRIO](https://github.com/wpilibsuite/GradleRIO/releases) adresine giderek buradan en üstteki sürümden `java.zip`'i indiriyoruz.
+
+![gradlerio](https://i.hizliresim.com/JZ3dGB.png)
+
+Ardından indirdiğimiz sıkıştırılmış klasördeki tüm dosyaları yeni açtığımız proje klasörüne çıkartıyoruz. Çıkarttıktan sonra proje dosyalarından **build.gradle**'da ufak ayarlar yapmamız gerekiyor. `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncelleyebilirsiniz. 
+
+![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png)
+
+En sonunda böyle bir satır elde etmeniz gerekiyor.
 
 ```text
 id "edu.wpi.first.GradleRIO" version "2019.1.1"
@@ -83,7 +91,11 @@ task wrapper(type: Wrapper) {
 }
 ```
 
-Daha sonrasında `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncellemeniz gerekiyor. ![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png) En sonunda güncellediğiniz sürüme göre bu şekilde bir satır elde etmeniz gerekiyor.
+Daha sonrasında `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncellemeniz gerekiyor. 
+
+![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png)
+
+En sonunda güncellediğiniz sürüme göre bu şekilde bir satır elde etmeniz gerekiyor.
 
 ```text
 id "edu.wpi.first.GradleRIO" version "2019.1.1"
