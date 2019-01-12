@@ -1,6 +1,6 @@
 # Robot kodunu build etme ve RoboRIO 'ya yüklemek
 
-![Robot ba&#x15F;lang&#x131;c&#x131;nda &#xE7;al&#x131;&#x15F;mas&#x131; i&#xE7;in program y&#xFC;kleniyor](../.gitbook/assets/image%20%2899%29.png)
+![Robot ba&#x15F;lang&#x131;c&#x131;nda &#xE7;al&#x131;&#x15F;mas&#x131; i&#xE7;in program y&#xFC;kleniyor](../.gitbook/assets/image%20%28114%29.png)
 
 Programınızın roboRIO önyüklemesinin her defasında otomatik olarak çalışmasını sağlamak için, kodunuz roboRIO flash belleğe yüklenmelidir. Böylece robot yeniden başlatıldığında ve maç oynandığında kodunuz sürekli orada olacaktır. Bunu yapmak için:
 
@@ -14,15 +14,15 @@ Ardından deployement  süreci başlayacak ve Konsol durum bilgisinin çıktıs�
 
 "WPILib Java Deploy" butonuna bastıktan sonra deploy süreci bir kaç adımdan geçecektir.
 
-![Temizleme](../.gitbook/assets/image%20%2862%29.png)
+![Temizleme](../.gitbook/assets/image%20%2872%29.png)
 
 Deploy sürecinizin temiz bir şekilde çalışması için , herhangi bir bug ile karşılaşmamanız için gereklidir.
 
-![Derleme ve Jar](../.gitbook/assets/image%20%2871%29.png)
+![Derleme ve Jar](../.gitbook/assets/image%20%2881%29.png)
 
 Ardından kod bir jar dosyasında derlenir ve paketlenir.
 
-![Hedef IP adresini bulmak](../.gitbook/assets/image%20%2853%29.png)
+![Hedef IP adresini bulmak](../.gitbook/assets/image%20%2862%29.png)
 
  Bu adımda, eklenti roboRIO'nun IP'sini belirler. Eklenti, aşağıdaki yöntemlerle roboRIO'ya ulaşmaya çalışacaktır:
 
@@ -35,7 +35,7 @@ RoboRIO bu yöntemlerden herhangi biri aracılığıyla erişilebilir ise, Deplo
 
 
 
-![Ba&#x11F;&#x131;ml&#x131;l&#x131;klar](../.gitbook/assets/image%20%28100%29.png)
+![Ba&#x11F;&#x131;ml&#x131;l&#x131;klar](../.gitbook/assets/image%20%28115%29.png)
 
 Bağımlılıklar bölümü roboRİO işlem için gerekli  bağımlılıkları denetler. Şu anda Java için, bu iki bileşenden oluşur:
 
@@ -44,7 +44,7 @@ Bağımlılıklar bölümü roboRİO işlem için gerekli  bağımlılıkları d
 1. RoboRIO image sürümünü kontrol edin. Doğrulama başarılı olursa, " version was validated and the deploy will proceed" diye bir mesaj alırsınız. Doğrulanma başarısız olursa "indicating the allowed image version for this version of the plugins, see [Image Check Failure under Troubleshooting](https://wpilib.screenstepslive.com/s/currentCS/m/cpp/l/145320-building-and-downloading-a-robot-project-to-the-roborio#) below for more details" şeklinde bir mesaj görürsünüz. 
 2. JRE roboRIO yüklü olduğunu kontrol edin. Eğer Değilse, eklentiler tarafından otomatik olarak deploy edilir.
 
-![Kodu kopyalama ve ba&#x15F;latma](../.gitbook/assets/image%20%2843%29.png)
+![Kodu kopyalama ve ba&#x15F;latma](../.gitbook/assets/image%20%2851%29.png)
 
 Deploy işleminin kalan kısımları aşağıdaki gibi devam eder:
 

@@ -1,3 +1,7 @@
+---
+description: Çeviriler için  Artistanbul  'a teşekkür ederiz...
+---
+
 # Takım Fonlama
 
 ### **Bölüm 1 : Bütçe yaratmak**
@@ -25,4 +29,6 @@
 {% embed url="https://youtu.be/bs4esZ2miMk" %}
 
 Altyazı çevirisi için [Artistanbul](https://artistanbul.io) 'a teşekkür ederiz. 
+
+![](../.gitbook/assets/artistanbul_logo00.png)
 

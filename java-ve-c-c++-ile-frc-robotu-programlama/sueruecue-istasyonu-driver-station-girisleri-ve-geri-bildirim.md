@@ -6,7 +6,7 @@
 
 **Giriş tipleri**
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 Yukarıdaki grafik DS yazılımı tarafından iletilebilecek farklı giriş türlerini göstermektedir. En yaygın giriş, 2009'dan beri Parça Kitinde sağlanan Logitech Attack 3 veya Logitech Extreme 3D Pro joystick gibi bir HID uyumlu joystick veya gamepad'tir. Özel IO'nun kullanılmasına izin veren bir dizi aygıtın mevcut olduğunu unutmayın. TI Launchpad ve Parçalar Kitinizde bulunan 16 Hertz Leonardo ++ gibi standart bir USB HID cihazı olarak ortaya çıkar.
 
@@ -131,7 +131,7 @@ Bu yöntem, geçerli periyotta \(auto, teleop, vb.\) Kalan süreyi saniye cinsin
 
 **USB Bağlantısı**
 
-![](../.gitbook/assets/image%20%2848%29.png)
+![](../.gitbook/assets/image%20%2856%29.png)
 
 Kumanda Kolu, sürücü istasyonundaki mevcut USB bağlantı noktalarından birine bağlı olmalıdır. Başlatma rutini, joysticklerin pozisyonu ne olursa olsun orta pozisyonda olacak, bu yüzden istasyon açıldığında joysticklerin orta pozisyonlarında olması gerekir. Genel olarak, Sürücü İstasyonu yazılımı, cihazlar arasındaki sıralamayı korumayı deneyecektir, ancak cihazlarınızın hangi sırada olması gerektiğini not etmek iyi bir fikirdir ve Sürücü İstasyonu yazılımını her doğru başlattıklarında kontrol edin. Bu, USB Aygıtları sekmesini seçerek ve sol taraftaki USB Kurulum kutusunda siparişi görüntüleyerek yapılabilir. Bir joystick üzerindeki bir düğmeye basmak, tablodaki girdinin mavi yanmasına ve adından sonra yıldız işaretlerinin görünmesine neden olur. Joystickleri yeniden sıralamak için tıklayıp sürükleyin.
 
@@ -260,7 +260,7 @@ Joystick sınıfı ayrıca joystick girişini bir polar koordinat sistemine dön
 
 #### Joystick Eşleştirmesini Belirleme
 
-![](../.gitbook/assets/image%20%2857%29.png)
+![](../.gitbook/assets/image%20%2867%29.png)
 
 2015 FRC Sürücü İstasyonunda, eksen düğmeleri ve fiziksel joystick özellikleri ile eksen veya düğme numaraları arasındaki eşleşmeyi belirlemek için kullanılabilecek POV değerlerinin göstergeleri bulunur. Seçmek için listede joystick'i tıklamanız yeterlidir ve göstergeler joystick girişine cevap vermeye başlayacaktır.
 

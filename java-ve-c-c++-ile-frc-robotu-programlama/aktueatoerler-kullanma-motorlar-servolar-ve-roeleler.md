@@ -6,7 +6,7 @@
 
 **Aktüatör tipleri**
 
-![](../.gitbook/assets/image%20%2812%29.png)
+![](../.gitbook/assets/image%20%2814%29.png)
 
  Yukarıda gösterilen grafik, WPILib aracılığıyla kontrol edilebilen aktüatör tiplerini göstermektedir. Bu bölümdeki makaleler, bu tip aktüatörlerin her birini ve bunları kontrol eden WPILib yöntemleri ve sınıflarını kapsayacaktır.
 
@@ -101,13 +101,13 @@ Daha önce belirtildiği gibi, Speed Controller nesneleri -1.0 \(tam ters\) ila 
 
 **Differential Drive**
 
-![](../.gitbook/assets/image%20%2874%29.png)
+![](../.gitbook/assets/image%20%2885%29.png)
 
 Bu drive base genellikle iki veya daha fazla çekiş gücüne sahiptir. Aynı zamanda "skid-steer", "tank drive" veya "West Coast Drive"olarak da bilinir. Omni tekerlekler kullanarak yatay eksende hareket yapabilirsiniz.  Görseldeki robot drivetrain kiti içerisinden çıkan parçalarla yapılmış differential drive örneğidir. Bu drivetrains ileri/geri sürüş yeteneğine sahiptir ve iki tarafı ters yönde sürerek tekerleklerin yanlara doğru kaymasına neden olabilir. Bu drivetrain yan öteleme hareketi yeteneğine sahip değildir.
 
 **Mecanum Drive**
 
-![](../.gitbook/assets/image%20%2818%29.png)
+![](../.gitbook/assets/image%20%2823%29.png)
 
 Mecanum drive robotun şasesi ile dönüş yapmadan tekerlekeri kullanarak herhangi bir yönde sürüş yapmanızı sağlayan yöntemdir. Bu yönteme holonomic drive da denir. Tekerlekler 45 derecelik açıda silindirlere sahiptir. 
 

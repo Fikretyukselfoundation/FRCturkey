@@ -12,7 +12,7 @@ Merhabalar, bu içerikte sizlerle daha önceden geliştirdiğimiz görüntü iş
 Konsola girmemiz gereken komutlar şu şekildedir:  
 `sudo apt install python-numpy python-opencv libopencv-dev`
 
-![](../.gitbook/assets/image%20%289%29.png)
+![](../.gitbook/assets/image%20%2811%29.png)
 
 y/n seçeneğine y yanıtını verelim. Bu işlem yaklaşık 5 dakika sürebilir.
 
@@ -59,7 +59,7 @@ print("[" + str(hue + 10) + ", 255, 255]")
 
  Kullanımı ise şu şekildedir :
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 Algılatmak istediğiniz rengin kırmızı, yeşil, mavi renk değerlerini almalısınız. Ardından şu komutu kullanmalısınız:
 
@@ -233,7 +233,7 @@ komutunu kullanmanız yeterli olacaktır.
 
 ![](../.gitbook/assets/raspi-vision.gif)
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%28107%29.png)
 
 
 

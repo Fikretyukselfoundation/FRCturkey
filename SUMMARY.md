@@ -3,10 +3,16 @@
 * [FIRST nedir?](README.md)
 * [Fikret Yüksel Foundation](fikret-yueksel-foundation.md)
 
+## Eclipse Kurulumu \(Opsiyonel\)
+
+* [Eclipse Kurulumu \(Java ve C++ için\)](derleyici-kurulumu/eclipse-kurulumu-java-ve-c++-icin.md)
+* [Eclipse ile Java projesi oluşturma](derleyici-kurulumu/untitled.md)
+
 ## Java ve C/C++ ile FRC Robotu Programlama
 
-* [Eclipse Kurulumu \(Java ve C++ için\)](java-ve-c-c++-ile-frc-robotu-programlama/eclipse-kurulumu-java-ve-c++-icin.md)
-* [Java ile proje oluşturma](java-ve-c-c++-ile-frc-robotu-programlama/untitled.md)
+* [FRC için C ++ ve Java Geliştirme Araçları Kurulumu \(vscode\)](java-ve-c-c++-ile-frc-robotu-programlama/frc-icin-c-++-ve-java-gelistirme-araclari-kurulumu-vscode.md)
+* [Visual Studio Kod Temelleri ve WPILib Uzantısı](java-ve-c-c++-ile-frc-robotu-programlama/visual-studio-kod-temelleri-ve-wpilib-uzantisi.md)
+* [Robot Programı Oluşturma VSCODE](java-ve-c-c++-ile-frc-robotu-programlama/robot-programi-olusturma-vscode.md)
 * [Başlangıç için örnek kodlar](java-ve-c-c++-ile-frc-robotu-programlama/baslangic-icin-oernek-kodlar.md)
 * [Robot kodunu build etme ve RoboRIO 'ya yüklemek](java-ve-c-c++-ile-frc-robotu-programlama/robot-kodunu-build-etme-ve-roborio-ya-yueklemek.md)
 * [WPILib API Dökümanı](java-ve-c-c++-ile-frc-robotu-programlama/wpilib-api-doekuemani.md)

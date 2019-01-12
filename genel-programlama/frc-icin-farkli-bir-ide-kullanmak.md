@@ -4,7 +4,9 @@ description: 'İçerik için Imperium #6874 takımına teşekkür ederiz.'
 
 # FRC için Farklı bir IDE kullanmak
 
-## FRC için farklı IDE kullanmak
+## FRC için Farklı bir IDE kullanmak
+
+### FRC için farklı IDE kullanmak
 
 IDE \(Integrated Developement Environment\): Bilgisayar programcılarının yazılım geliştirmesi için uygun şartlar sağlayan, içindeki araçlar ile yazılımınızın hızlıca gelişmesine yardımcı olan programlardır.
 
@@ -14,7 +16,7 @@ IDE \(Integrated Developement Environment\): Bilgisayar programcılarının yaz�
 * Diğer IDE'lerin bulundurduğu araç Visual Studio Code'da bulunmayabilir.
 * Başka bir IDE kullanmaya alışmış olabilirsiniz.
 
-#### **Peki biz IDE'mizi değiştirmek için ne yapmalıyız?**
+**Peki biz IDE'mizi değiştirmek için ne yapmalıyız?**
 
 **Eğer var olan bir projeniz yoksa**
 
@@ -22,7 +24,7 @@ Projeniz yoksa ilk işiniz proje temel dosyalarını indirmek olacaktır. [Gradl
 
 ![gradlerio](https://i.hizliresim.com/JZ3dGB.png)
 
-Ardından indirdiğimiz sıkıştırılmış klasördeki tüm dosyaları yeni açtığımız proje klasörüne çıkartıyoruz. Çıkarttıktan sonra proje dosyalarından **build.gradle**'da ufak ayarlar yapmamız gerekiyor. `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncelleyebilirsiniz. 
+Ardından indirdiğimiz sıkıştırılmış klasördeki tüm dosyaları yeni açtığımız proje klasörüne çıkartıyoruz. Çıkarttıktan sonra proje dosyalarından **build.gradle**'da ufak ayarlar yapmamız gerekiyor. `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncelleyebilirsiniz.
 
 ![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png)
 
@@ -49,7 +51,7 @@ En sonunda ise projenin ana klasöründe komut istemcisi açıp `gradlew` komutu
 
 O zaman sizin için proje dosyaları Visual Studio Code tarafından oluşturulmuştur.
 
-#### **Peki projemizi başka IDE'lere nasıl taşıyacağız?**
+**Peki projemizi başka IDE'lere nasıl taşıyacağız?**
 
 **Projemizi Eclipse ya da IntelliJ IDEA'da kullanmak için** proje klasörümüzün içindeki **build.gradle** dosyasını açarak `plugins {}` bloğunu istediğiniz IDE'yi ekleyerek güncellemelisiniz.
 
@@ -63,7 +65,7 @@ plugins {
 
 Daha sonra proje klasörümüzde komut istemcisini açıp eğer IntelliJ IDEA kullanacaksak `gradlew idea`, eğer Eclipse kullanacaksak `gradlew eclipse` yazarak klasörünüzün içinde IDE Proje dosyalarınızın oluştuğunu göreceksiniz. Eğer IntelliJ IDEA ya da Eclipse'den başka IDE kullanmak istiyorsanız ne yazık ki onların Gradle için plugin desteği bulunmamakta, fakat bahsedeceğim komutlar ile kendi IDE'nizi de kullanabilirsiniz!
 
-#### **GradleRIO Komutları**
+**GradleRIO Komutları**
 
 Bu komutları proje ana klasörünüzde komut istemcisi ile çalıştırırsanız aşağıdaki sonuçları elde edersiniz.
 
@@ -75,13 +77,13 @@ Genel Komutlar
 
 **Yarışmada mısınız? İnternete bağlı değil misiniz?** Komutu `--offline` parametresi ile çalıştırın. örn. `gradlew deploy --offline`
 
-#### **3. Parti kütüphaneleri kurmak**
+**3. Parti kütüphaneleri kurmak**
 
 Proje ana klasörümüz içinde **vendordeps** adlı bir klasör açıyoruz. İçine kurmak istediğimiz 3. Parti kütüphanenin .json dosyasını kaydediyoruz.
 
 Örnek olarak CTR-E Phoenix: **C:\Users\Public\frc2019\vendordeps** içinde Phoenix.json olarak bulunur.
 
-#### **WPILib kütüphanesini güncellemek**
+**WPILib kütüphanesini güncellemek**
 
 Güncelleme yapmak için en başta Gradle sürümünü güncellemeniz gerekiyor. **build.gradle** dosyasının aşağısındaki gradleVersion değerini Gradle sürümüne göre değiştirebilirsiniz. Değiştirdikten sonra proje ana klasöründe `gradlew wrapper` komutunu çalıştırın.
 
@@ -91,7 +93,7 @@ task wrapper(type: Wrapper) {
 }
 ```
 
-Daha sonrasında `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncellemeniz gerekiyor. 
+Daha sonrasında `plugins {}` bloğunda bulunan `id "edu.wpi.first.GradleRIO" version "xxxx.xx.xx"` bölümündeki `xxxx.xx.xx` ile belirtilen versiyonu [Gradle - GradleRIO Plugin](https://plugins.gradle.org/plugin/edu.wpi.first.GradleRIO) sitesinden bakarak en son sürüm ile güncellemeniz gerekiyor.
 
 ![Gradle - GradleRIO Plugin](https://i.hizliresim.com/9aGvPk.png)
 
@@ -105,5 +107,5 @@ Daha sonrasında rahatça yazılımınızı güncel bir şekilde kullanabilirsin
 
 ![&#x130;&#xE7;erik i&#xE7;in Imperium \#6874 tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;r ederiz.](../.gitbook/assets/22069962_145808272692611_4428606646524051456_n.jpg)
 
-
+![&#x130;&#xE7;erik i&#xE7;in Imperium \#6874 tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;r ederiz.](../.gitbook/assets/22069962_145808272692611_4428606646524051456_n.jpg)
 
