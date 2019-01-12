@@ -7,6 +7,8 @@
 
 * [Eclipse Kurulumu \(Java ve C++ için\)](derleyici-kurulumu/eclipse-kurulumu-java-ve-c++-icin.md)
 * [Eclipse ile Java projesi oluşturma](derleyici-kurulumu/untitled.md)
+* [Robot kodunu build etme ve RoboRIO 'ya yüklemek](derleyici-kurulumu/robot-kodunu-build-etme-ve-roborio-ya-yueklemek.md)
+* [WPILib API Dökümanı](derleyici-kurulumu/wpilib-api-doekuemani.md)
 
 ## Java ve C/C++ ile FRC Robotu Programlama
 
@@ -14,8 +16,6 @@
 * [Visual Studio Kod Temelleri ve WPILib Uzantısı](java-ve-c-c++-ile-frc-robotu-programlama/visual-studio-kod-temelleri-ve-wpilib-uzantisi.md)
 * [Robot Programı Oluşturma VSCODE](java-ve-c-c++-ile-frc-robotu-programlama/robot-programi-olusturma-vscode.md)
 * [Başlangıç için örnek kodlar](java-ve-c-c++-ile-frc-robotu-programlama/baslangic-icin-oernek-kodlar.md)
-* [Robot kodunu build etme ve RoboRIO 'ya yüklemek](java-ve-c-c++-ile-frc-robotu-programlama/robot-kodunu-build-etme-ve-roborio-ya-yueklemek.md)
-* [WPILib API Dökümanı](java-ve-c-c++-ile-frc-robotu-programlama/wpilib-api-doekuemani.md)
 * [FRC Java Temelleri](java-ve-c-c++-ile-frc-robotu-programlama/frc-java-temelleri.md)
 * [Aktüatörler kullanma \(motorlar, servolar ve röleler\)](java-ve-c-c++-ile-frc-robotu-programlama/aktueatoerler-kullanma-motorlar-servolar-ve-roeleler.md)
 * [CAN cihazlarının kullanımı](java-ve-c-c++-ile-frc-robotu-programlama/can-cihazlarinin-kullanimi.md)
