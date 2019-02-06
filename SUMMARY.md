@@ -26,8 +26,6 @@
 ## Labview İle FRC Robotu Programlama
 
 * [FRC 2018 için Labview Kurulumu \(sadece LabVIEW\)](labview-ile-frc-robotu-programlama/frc-2018-icin-labview-kurulumu-sadece-labview.md)
-* [Robot Programı Oluşturma](labview-ile-frc-robotu-programlama/robot-programi-olusturma.md)
-* [Labview Kaynakları](labview-ile-frc-robotu-programlama/labview-kaynaklari.md)
 
 ## Vision Processing - Görüntü İşleme
 
@@ -45,21 +43,13 @@
 ## FRC Elektronik
 
 * [FRC Kontrol Sisteminin Kablolanması](frc-elektronik/frc-kontrol-sisteminin-kablolanmasi.md)
-* [Genel Donanım](frc-elektronik/untitled.md)
-* [Roborio](frc-elektronik/roborio.md)
 * [Yapacağınız iş için doğru sensörü seçmek](frc-elektronik/yapacaginiz-is-icin-dogru-sensoerue-secmek.md)
 
 ## FRC Mekanik
 
-* [Eklenecektir.](frc-mekanik/untitled.md)
-* [Untitled](frc-mekanik/untitled-1.md)
-
 ## İŞ/ÖDÜL/KURALLAR
 
 * [Takım Fonlama](is-oeduel-kurallar/giris.md)
-* [Video Montajlamak\(Ödül başvuruları , takım videoları\)](is-oeduel-kurallar/video-montajlamak-oeduel-basvurulari-takim-videolari.md)
-* [Fotoğraf editlemek](is-oeduel-kurallar/fotograf-editlemek.md)
-* [Takım websitesi oluşturmak](is-oeduel-kurallar/takim-websitesi-olusturmak.md)
 * [Ödüller](is-oeduel-kurallar/oedueller.md)
 
 ## Yarışmaya Hazırlanmak

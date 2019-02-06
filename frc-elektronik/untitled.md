@@ -1,4 +1,0 @@
-# Genel Donanım
-
-İçerik hazırlanıyor...
-
