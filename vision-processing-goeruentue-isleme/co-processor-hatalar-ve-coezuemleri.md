@@ -1,3 +1,9 @@
+---
+description: >-
+  Yaşadıkları problemleri ve çözümleri bizlere aktaran #6038 ITOBOT takımına ve 
+  #6025 Adroit Anroids takımına teşekkürler!
+---
+
 # Co-Processor - Hatalar ve Çözümleri
 
 ## Hatalar ve Çözümleri
@@ -59,5 +65,9 @@ Bunun için Wpilib'in yazdığı bir makale bulunmakta. Bu makaleyi okuyarak pro
 
 {% embed url="https://wpilib.screenstepslive.com/s/3120/m/8731/l/90337-target-info-and-retroreflection" %}
 
+Yaşadıkları problemleri ve çözümleri bizlere aktaran \#6038 ITOBOT takımına ve \#6025 Adroit Anroids takımına teşekkürler!
 
+![](../.gitbook/assets/16387065_1425006810884280_3894833080608931299_n.jpg)
+
+![](../.gitbook/assets/12717164_240673006268960_5793277403987910316_n.jpg)
 
