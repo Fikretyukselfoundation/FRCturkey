@@ -32,11 +32,10 @@
 ## Vision Processing - Görüntü İşleme
 
 * [Görüntü İşleme Kaynakları](vision-processing-goeruentue-isleme/untitled.md)
-* [Co-processor - OpenCV ile Örnek Vision Processing Kodları](vision-processing-goeruentue-isleme/arkaplan.md)
+* [Co-Processor - Örnekler](vision-processing-goeruentue-isleme/arkaplan.md)
 * [Kurulum](vision-processing-goeruentue-isleme/kurulum.md)
 * [Vision programlama](vision-processing-goeruentue-isleme/vision-programlama.md)
 * [Grip](vision-processing-goeruentue-isleme/grip.md)
-* [Limelight ile Vision Processing](vision-processing-goeruentue-isleme/limelight-ile-vision-processing.md)
 
 ## Genel Programlama
 
