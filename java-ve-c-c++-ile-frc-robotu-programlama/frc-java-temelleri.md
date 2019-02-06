@@ -18,7 +18,7 @@ Genellikle roboRİO breakout panolarından\(Türkiye'de bilinen adıyla roborio 
 
 ### **Java'da operatör arayüzü nesneleri oluşturma**  
 
-![](../.gitbook/assets/image%20%281%29.png)
+![](../.gitbook/assets/image%20%282%29.png)
 
 Genel olarak Driver Station PC'sine USB üzerinden bağlanan nesneler, bağlandıkları USB portunu belirten tek bir argüman alırlar. FRC Driver Station ile çalışan herhangi bir joystick veya gamepad ile arabirim kurmak için gereken işlevselliği sağlayan tek bir Joystick sınıfı sağlanmıştır.
 
@@ -27,11 +27,11 @@ Genel olarak Driver Station PC'sine USB üzerinden bağlanan nesneler, bağland�
 
 ### **Sınıf, yöntem ve değişken adlandırma**
 
-![](../.gitbook/assets/image%20%2846%29.png)
+![](../.gitbook/assets/image%20%2849%29.png)
 
 ### MXP IO Numarlandırılması
 
-![](../.gitbook/assets/image%20%28109%29.png)
+![](../.gitbook/assets/image%20%28113%29.png)
 
 ### Java'da multithreading
 

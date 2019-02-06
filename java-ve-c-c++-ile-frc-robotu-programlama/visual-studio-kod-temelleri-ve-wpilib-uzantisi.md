@@ -4,7 +4,7 @@ Microsoft'un Visual Studio Code'u, C ++ ve Java gelişimi için FRC'deki yeni de
 
 #### Welcome Sayfası
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](../.gitbook/assets/image%20%28112%29.png)
 
 Visual Studio Code ilk açıldığında, size bir Hoş Geldiniz sayfası sunulur. Bu sayfada, Visual Studio Kodunu kişiselleştirmenize izin veren bazı hızlı linklerin yanı sıra, IDE'nin temelleri ve bazı ipuçlarını ve püf noktalarını öğrenmenize yardımcı olacak belgeler ve videolar için birkaç link bulacaksınız.
 
@@ -22,7 +22,7 @@ Aşağıdaki örnekte "wpilib" Komut Paleti'ni etkinleştirdikten sonra arama ku
 
 #### WPILib Eklentileri
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../.gitbook/assets/image%20%28114%29.png)
 
 WPILib uzantısı, proje ve proje bileşenleri oluşturma, roboRIO'ya kod oluşturma ve indirme ile ilgili FRC'ye özgü işlevler sağlar. WPILib komutlarına iki yoldan biriyle erişebilirsiniz:
 

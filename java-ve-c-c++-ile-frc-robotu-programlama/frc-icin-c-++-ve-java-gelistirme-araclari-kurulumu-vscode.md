@@ -6,7 +6,7 @@
 
 #### Kurulum Tipi
 
-![](../.gitbook/assets/image%20%2828%29.png)
+![](../.gitbook/assets/image%20%2830%29.png)
 
 Makinede Tüm Kullanıcılar için mi yoksa Geçerli Kullanıcı için mi yükleneceğini seçin. "All Users" seçeneği Yönetici ayrıcalıkları gerektirir, ancak tüm kullanıcı hesaplarının erişebileceği bir şekilde kurulur, Geçerli Kullanıcı yüklemesine yalnızca kurulduğu hesaptan erişilebilir.
 
@@ -16,7 +16,7 @@ Tüm Kullanıcılar'ı seçerseniz, görünen güvenlik istemini kabul etmeniz g
 
 Lisanslama nedeniyle, yükleyici paketlenmiş VSCode yükleyicisini içeremez. VSCode yükleyicisini indir veya önceden indirilmiş bir kopya seçmek için VSCode Seç / İndir'i tıklatın. İnternet bağlantısı olmayan diğer makinelere kurmak istiyorsanız, indirme tamamlandıktan sonra, Çevrimdışı Yükleyici ile birlikte kopyalamak üzere dosya sistemindeki zip dosyasına götürmek için İndirilen Dosyayı Aç seçeneğine tıklayabilirsiniz.
 
-![](../.gitbook/assets/image%20%2860%29.png)
+![](../.gitbook/assets/image%20%2863%29.png)
 
 #### Kurulumu çalıştırın
 
@@ -24,7 +24,7 @@ Tüm onay kutularının işaretli olduğundan emin olun \(bu makineye 2019 WPILi
   
 
 
-![](../.gitbook/assets/image%20%2841%29.png)
+![](../.gitbook/assets/image%20%2844%29.png)
 
 #### Ne Yüklendi?
 
@@ -46,11 +46,11 @@ Tüm onay kutularının işaretli olduğundan emin olun \(bu makineye 2019 WPILi
 
 Bunların her ikisi de WPIlib C ++  Java araçları olarak belirli yıla referans veriyor, şimdi farklı mevsimlerden birden fazla ortamın yan yana kurulmasını destekliyor.
 
-![](../.gitbook/assets/image%20%2824%29.png)
+![](../.gitbook/assets/image%20%2826%29.png)
 
 #### Bitirelim
 
 Yükleyici tamamlandığında, şimdi VSCode'un WPILib sürümünü açabilecek ve kullanabileceksiniz. Herhangi bir 3. parti kütüphaneyi kullanıyorsanız, bunları robot kodunda kullanmadan önce bunları ayrı ayrı kurmanız gerekecektir.
 
-![](../.gitbook/assets/image%20%2883%29.png)
+![](../.gitbook/assets/image%20%2887%29.png)
 

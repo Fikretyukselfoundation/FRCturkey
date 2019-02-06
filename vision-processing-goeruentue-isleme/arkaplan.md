@@ -1,10 +1,14 @@
 # Co-Processor - Örnekler
 
-
-
 ## Raspberry Pi
 
 Merhabalar, bu içerikte sizlerle daha önceden geliştirdiğimiz görüntü işleme komutlarını paylaşacağım. Öncelikle kodların tamamına ulaşmak isterseniz : [https://github.com/enisgetmez/FRC-Vision-Processing](https://github.com/enisgetmez/FRC-Vision-Processing) buradan ulaşabilirsiniz.
+
+Bu kısmı buradan daha detaylı bir şekilde izleyebilirsiniz:
+
+{% embed url="https://youtu.be/FReqrby5Its?t=1799" %}
+
+
 
 **Co-Processor olarak Raspberry PI kullanacağız.**
 
@@ -16,7 +20,7 @@ Merhabalar, bu içerikte sizlerle daha önceden geliştirdiğimiz görüntü iş
 Konsola girmemiz gereken komutlar şu şekildedir:  
 `sudo apt install python-numpy python-opencv libopencv-dev`
 
-![](../.gitbook/assets/image%20%2811%29.png)
+![](../.gitbook/assets/image%20%2813%29.png)
 
 y/n seçeneğine y yanıtını verelim. Bu işlem yaklaşık 5 dakika sürebilir.
 
@@ -73,7 +77,7 @@ print("[" + str(hue + 10) + ", 255, 255]")
 
  Kullanımı ise şu şekildedir :
 
-![](../.gitbook/assets/image%20%28111%29.png)
+![](../.gitbook/assets/image%20%28115%29.png)
 
 Algılatmak istediğiniz rengin kırmızı, yeşil, mavi renk değerlerini almalısınız. Ardından şu komutu kullanmalısınız:
 
@@ -175,15 +179,12 @@ x = 0 #programın ileride hata vermemesi için x 0 olarak tanımlıyorum
 y = 0 # programın ileride hata vermemesi için y 0 olarak tanımlıyorum
 NetworkTables.initialize(server='roborio-6025-frc.local') # Roborio ile iletişim kuruyoruz
 table = NetworkTables.getTable("Vision") # table oluşturuyoruz
-cap = cv2.VideoCapture(0) # webcamin bagli oldugu port varsayilan 0
-
-ret, frame = cap.read() # kameradan gelen görüntülerin alınması
 
 #sari rengin algilanmasi
 colorLower = (24, 100, 100)
 colorUpper = (44, 255, 255)
 #converter.py ile convert ettiğiniz rengi buraya giriniz
-camera = cv2.VideoCapture(0) # kameradan
+camera = cv2.VideoCapture(0) #  webcamin bagli oldugu port varsayilan 0
 while True: #yazılımımız çalıştığı sürece aşağıdaki işlemleri tekrarla
 
 
@@ -255,7 +256,7 @@ Komutunu girip düzenleyeceğiniz satırı düzenledikten sonra ctrl-x tuşları
 
 ![](../.gitbook/assets/raspi-vision.gif)
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 ### Şekil İşleme
 
@@ -272,7 +273,7 @@ from networktables import NetworkTables
 NetworkTables.initialize(server='roborio-6025-frc.local') # Roborio ile iletişim kuruyoruz
 table = NetworkTables.getTable("Vision") # table oluşturuyoruz
 
-cap = cv2.VideoCapture(0) # webcamin bagli oldugu yer
+cap = cv2.VideoCapture(0) # webcamin bagli oldugu port
 
 
 while(True):
@@ -351,9 +352,9 @@ komutunu kullanmanız yeterli olacaktır.
 
 Limelight, _FIRST_ Robotik Yarışması için özel olarak tasarlanmış bir tak-çalıştır akıllı kameradır . Vision Processing tecrübesi gerektirmez. Vision deneyimi olmayan veya yeterli seviyede mentör hocaları olmayan takımlar için Limelight yeterince kolaydır. Vision processing'e ihtiyaç duyan takımlar için bir alternatiftir.
 
-![Limelight Kamera](../.gitbook/assets/image%20%28118%29.png)
+![Limelight Kamera](../.gitbook/assets/image%20%28122%29.png)
 
-![](../.gitbook/assets/image%20%2893%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 
 
@@ -385,7 +386,7 @@ Limelight'ınızı monte etmek için nylock somunlarıyla birlikte dört adet 1/
 * “Flash” a tıklayın
 * Bir kez yanıp sönme tamamlandığında, güç kaynağınızdaki gücü kaldırın
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](../.gitbook/assets/image%20%28121%29.png)
 
 ### Ağ Kurulumu
 
@@ -468,7 +469,7 @@ import edu.wpi.first.networktables.NetworkTableInstance;
 
 **Labview:**
 
-![](../.gitbook/assets/image%20%2836%29.png)
+![](../.gitbook/assets/image%20%2838%29.png)
 
 **C++**
 
@@ -512,9 +513,15 @@ if (limelight.angleOffset > 10) { // eğer hedef solda kalıyorsa
 
 ###  Renk İşlemek
 
-Eğer Raspberry Pi kullanmadan doğrudan bilgisayar aracılığı ile görüntü işlemek için bilgisayarınıza Python kurmanız gerekmektedir. Aynı zamanda Gerekli Kütüphanelerin Kurulması kısmındaki kütüphanelere ek olarak Pillow kütüphanesini kurmanız gerekmektedir. Pillow kütüphanesini şu şekilde kurabilirsiniz:
+Eğer Raspberry Pi kullanmadan doğrudan bilgisayar aracılığı ile görüntü işlemek için bilgisayarınıza Python ve belirli kütüphaneleri kurmanız gerekmektedir. Gerekli kütüphaneleri şu şekilde kurabilirsiniz:
 
 `pip install pillow`
+
+`pip install opencv-python`
+
+`pip install pynetworktables`
+
+`pip install imutils`
 
 ```python
 import numpy as np
@@ -588,4 +595,71 @@ screen_record()
 Kodunuzu yazıp kaydettikten sonra çalıştırmak için konsoldan şu komutu girmeniz gerekmektedir:
 
 `python yazilimadi.py`
+
+Artık robotunuzu enable ettiğinizde , yazılımımızı çalıştırdığımızda değerler otomatik olarak smart dashboarda düşmeye başlayacaktır.
+
+
+
+## Hatalar ve Çözümleri
+
+### Hatalar ve Çözümleri
+
+#### AttributeError: 'NoneType' object has no attribute 'shape' hatası
+
+![](../.gitbook/assets/hata.png)
+
+Bu hatayı alma sebebiniz yazılımımızın sizin kameranızı tanımamasından kaynaklanmaktadır. Kameranızı Raspberry Pi'ye taktıktan sonra konsola
+
+`sudo apt-get update && sudo apt-get upgrade`
+
+komutunu girmeniz gerekmektedir. Bu komut kameranız Raspberry Pi 'ye bağlıyken Raspi'nizi update edip gereklid driverleri indirmesini ve upgrade komutuyla kurmasını sağlayacaktır. Eğer kameranızı yine algılamazsa kodunuzda bulunan 
+
+```python
+camera = cv2.VideoCapture(0) #  webcamin bagli oldugu port varsayilan 0
+```
+
+satırındaki 0 numarasını 1 ile değiştirebilirsiniz. Raspberry Pi'de 4 port olduğu için 4'e kadar değiştirerek deneyebilirsiniz.
+
+#### No module named 'networktables'
+
+![](../.gitbook/assets/image%20%2840%29.png)
+
+Eğer böyle bir hata ile karşılaşıyorsanız pynetworktables kütüphanesini kurarken sıkıntı yaşamışsınız demektir. 
+
+`pip install pynetworktables`
+
+Komutunu girip tekrar çalıştırmayı deneyin. Eğer aynı hatayı almaya devam ediyorsanız, muhtemelen kodu sudo komutuyla çalıştırmaya çalışıyorsunuzdur. Sudo ve normal işlem esnasında kullandığınız pi farklı kullanıcılardır. Sudo bütün yetkilere sahip olan kullanıcı anlamına gelmektedir. Sudo olarak çalıştırmak istiyorsanız , kütüphaneleri Sudo kullanıcısına tekrardan kurmanız gerekmektedir. Bunun için konsola şu komutları girmelisiniz.
+
+`Sudo su`
+
+Bu komut pi kullanıcısından sudo kullanıcısına geçmenizi sağladı. Şimdi bütün kütüphaneleri tekrardan pip komutu ile kurabilirsiniz.
+
+#### IndentationError: unindent does not match any outer indentation level
+
+![](../.gitbook/assets/image%20%2810%29.png)
+
+Bu hata komutun başında bulunan boşlukları sildiğinizi veya fazladan boşluk koyduğunuz anlamına gelir. Python syntax'ı boşluklarla olduğu için yazdığınız komutu algılamaz. Boşlukları kontrol edip tekrar çalıştırmayı deneyin. Eğer boşluklarla ilgli bir problem göremezseniz herhangi bir Python editörü indirip editör ile kodlarınızı kontrol edebilirsiniz. Editörler bu tarz problemleri kendiliğinden fark edip düzeltirler.
+
+#### Reflektörün beyaz yansıması
+
+![](../.gitbook/assets/image%20%2882%29.png)
+
+Bu problem bir çok farklı sebepten kaynaklanıyor olabilir.
+
+Başlıca sebepleri:
+
+* Kullandığınız ledlerin parlaklığı
+* Kullandığınız ledlerin sayısı
+* Kamera ve ledlerin konumu
+* Kullandığınız reflector
+
+![](../.gitbook/assets/image.png)
+
+Bunun için Wpilib'in yazdığı bir makale bulunmakta. Bu makaleyi okuyarak problemi çözebilirsiniz. 
+
+{% embed url="https://wpilib.screenstepslive.com/s/3120/m/8731/l/90337-target-info-and-retroreflection" %}
+
+
+
+
 
