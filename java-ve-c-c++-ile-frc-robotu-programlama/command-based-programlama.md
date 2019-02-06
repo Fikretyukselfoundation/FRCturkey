@@ -23,7 +23,7 @@ Komutlar - alt sistemlerde tanımlanan yetenekleri içeren robotun çalışması
 
 #### Komutlar nasıl çalışır
 
-![](../.gitbook/assets/image%20%28120%29.png)
+![](../.gitbook/assets/image%20%28121%29.png)
 
 Komutlar, robotu küçük parçalar halinde çalıştırmanın görevlerini çözmenizi sağlar. Her komutun, bazı çalışma yapan bir execute \(\) yöntemi ve tamamlandığını söyleyen isFinished \(\) yöntemi vardır. Bu, sürücü istasyonundan veya her 20 ms'den bir güncellemede gerçekleşir. Komutlar birlikte gruplandırılabilir ve sıralı olarak gerçekleştirilebilir, bir önceki grupta olduğu gibi grupta bir sonraki başlar.
 
@@ -51,7 +51,7 @@ Bir komut zamanlandığında, Zamanlayıcı, başka hiçbir komutun, yeni komutu
 
 #### Nasıl Çalışır - Komutları Çalıştırma
 
-![](../.gitbook/assets/image%20%2898%29.png)
+![](../.gitbook/assets/image%20%2899%29.png)
 
 Yeni komutları kontrol ettikten sonra, programlayıcı aktif komutlar listesinden geçer ve her komutta execute \(\) ve isFinished \(\) yöntemlerini çağırır. Görünür eşzamanlı yürütmenin, programa karmaşıklık katacak iş parçacıkları veya görevler kullanılmadan gerçekleştirildiğine dikkat edin. Her bir komutun basitçe, hedefine doğru ilerlemek için bir kod \(yürütme yöntemi\) ve komutun hedefe ulaşıp ulaşmadığını belirleyen bir yöntem \(isFinished\) vardır. Execute ve isFinished yöntemleri tekrar tekrar denir.
 
@@ -85,7 +85,7 @@ Proje isminizi kutuya yazıp Command-Based Robot için radyo düğmesini seçin.
 
 #### Proje Gezgini penceresindeki örnek projeye bakın
 
-![](../.gitbook/assets/image%20%28106%29.png)
+![](../.gitbook/assets/image%20%28107%29.png)
 
  CommandBasedRobotTemplate projesinin Project Explorer penceresinde bulunmuş olabilecek diğer projelere eklendiğine dikkat edin. Komutlar için bir klasör ve Alt sistemler için başka bir klasör var.
 
@@ -101,7 +101,7 @@ Bir alt sistem eklemek için, proje adına sağ tıklayın ve açılan menüden 
 
 #### Alt sistemi adlandırma
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](../.gitbook/assets/image%20%28105%29.png)
 
 Alt sistem için bir ad doldurun. Bu alt sistem için sonuçta ortaya çıkan sınıf adı olacaktır, bu nedenle adınız sizin diliniz için geçerli bir sınıf adı olmalıdır.
 
@@ -120,7 +120,7 @@ Bir alt sistem oluşturmaya benzer adımlar kullanarak proje için bir komut olu
 
 #### Komut adını ayarla
 
-![](../.gitbook/assets/image%20%28107%29.png)
+![](../.gitbook/assets/image%20%28108%29.png)
 
 Komut adını iletişim kutusundaki "Class Name" alanına girin. Bu, Komuta için sınıf adı olacaktır, bu nedenle diliniz için geçerli bir sınıf adı olmalıdır.
 

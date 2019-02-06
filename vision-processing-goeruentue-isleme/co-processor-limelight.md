@@ -6,9 +6,9 @@
 
 Limelight, _FIRST_ Robotik Yarışması için özel olarak tasarlanmış bir tak-çalıştır akıllı kameradır . Vision Processing tecrübesi gerektirmez. Vision deneyimi olmayan veya yeterli seviyede mentör hocaları olmayan takımlar için Limelight yeterince kolaydır. Vision processing'e ihtiyaç duyan takımlar için bir alternatiftir.
 
-![Limelight Kamera](../.gitbook/assets/image%20%28122%29.png)
+![Limelight Kamera](../.gitbook/assets/image%20%28123%29.png)
 
-![](../.gitbook/assets/image%20%2897%29.png)
+![](../.gitbook/assets/image%20%2898%29.png)
 
 
 
@@ -40,7 +40,7 @@ Limelight'ınızı monte etmek için nylock somunlarıyla birlikte dört adet 1/
 * “Flash” a tıklayın
 * Bir kez yanıp sönme tamamlandığında, güç kaynağınızdaki gücü kaldırın
 
-![](../.gitbook/assets/image%20%28121%29.png)
+![](../.gitbook/assets/image%20%28122%29.png)
 
 ### Ağ Kurulumu
 

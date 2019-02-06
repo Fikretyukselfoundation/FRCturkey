@@ -100,7 +100,7 @@ Büyük Wago konektörü: 6AWG-12AWG kablo kabul eder.
 
 #### Motor Sürücü Gücü
 
-![](../.gitbook/assets/image%20%28105%29.png)
+![](../.gitbook/assets/image%20%28106%29.png)
 
 ![](../.gitbook/assets/image%20%2841%29.png)
 
@@ -148,7 +148,7 @@ Gerektirir: 10A / 20A mini sigortalar, Kablo soyucu, çok küçük düz tornavid
 
 #### Voltaj Regülatörü Modülü 
 
-![](../.gitbook/assets/image%20%28109%29.png)
+![](../.gitbook/assets/image%20%28110%29.png)
 
 Requires: Kablo soyucu, küçük düz uçlu tornavida\(isteğe bağlı\), 18AWG kırmızı ve siyah kablo
 
@@ -160,7 +160,7 @@ Requires: Kablo soyucu, küçük düz uçlu tornavida\(isteğe bağlı\), 18AWG 
 
 #### Pneumatics Control Module  \(İsteğe Bağlı\)
 
-![](../.gitbook/assets/image%20%2895%29.png)
+![](../.gitbook/assets/image%20%2896%29.png)
 
 
 
@@ -183,7 +183,7 @@ Gerekenler: Küçük düz tornavida \(isteğe bağlı\), Rev kablosuz PoE kablos
 
 #### Roborio'yu radyo ethernetine bağlamak
 
-![](../.gitbook/assets/image%20%2896%29.png)
+![](../.gitbook/assets/image%20%2897%29.png)
 
 Gerektirir : Ethernet Kablosu
 
@@ -252,7 +252,7 @@ Entegre tel denetleyiciler\(kendi üzerinde kendiliğinden pwm kablosu olan sür
 
 #### Batarya bağlayın
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../.gitbook/assets/image%20%28103%29.png)
 
 ###  <a id="battery_box"></a>
 

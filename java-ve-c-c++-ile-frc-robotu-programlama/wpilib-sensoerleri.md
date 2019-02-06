@@ -212,7 +212,7 @@ Bu komut, yukarıdaki alt sistemdeki sayacı başlatır ve ardından motoru hare
 
  **İki eksenli analog ivmeölçer**
 
-![](../.gitbook/assets/image%20%28101%29.png)
+![](../.gitbook/assets/image%20%28102%29.png)
 
 Yaygın olarak kullanılan bir kısım \(yukarıdaki resimde gösterildiği gibi\) iki eksenli bir ivmeölçerdir. Bu cihaz, devre kartına göre X ve Y eksenlerinde hızlandırma verileri sağlayabilir. WPI Robotik Kütüphanesi'ni, biri X ekseni, diğeri Y ekseni için olmak üzere iki ayrı cihaz olarak değerlendirirsiniz. İvmeölçer, yerçekimi ivmesini ölçerek bir eğim sensörü olarak kullanılabilir. Bu durumda, cihazı yana çevirmek 1000 miliG veya bir tane G gösterir. Gösterilen, robot üzerindeki iki analog girişe bağlı 2 eksenli bir ivmeölçer kartıdır. 
 
@@ -524,7 +524,7 @@ FPGA'da bulunan ve her biri giriş sinyalinin türüne bağlı olarak birkaç mo
 
 **Gear-Tooth Modu ve GearTooth sensörleri**
 
-![](../.gitbook/assets/image%20%28103%29.png)
+![](../.gitbook/assets/image%20%28104%29.png)
 
 GearTooth sensörleri, demirli dişli**ye** veya zincir dişi dişlerine bitişik olarak monte edilecek ve bir dişin ne zaman geçtiğini algılayacak şekilde tasarlanmıştır.  Gear-Tooth sensörü, geçmekte olan dişlerin neden olduğu tarladaki değişimleri ölçebilen bir mıknatıs ve katı-hal cihazı kullanan bir Hall-Effect cihazdır. Yukarıdaki resim, metal dişli rotasyonunu ölçmek için monte edilmiş GearTooth sensörünü göstermektedir. Plastik dişliye bir metal dişli bağlandığına dikkat edin. Gear Tooth sensörünün dönüşü tespit etmek için onun tarafından geçen bir demir materyaline ihtiyacı vardır.
 
@@ -746,7 +746,7 @@ Aşağıdaki değerler Enkoderden alınabilir:
 
 RoboRIO Analog to Digital modülünün daha basit kontrol cihazlarında bulunmayan bazı özellikleri vardır. Analog kanalları, yuvarlak bir robin tarzında otomatik olarak örnekleyerek, 500 ks / s \(500.000 örnek / saniye\) bir kombine örnek oranı sağlar. Bu kanallar, program tarafından kullanılan değeri sağlamak için isteğe bağlı olarak aşırı örneklenebilir ve ortalaması alınabilir. Ortalama değerlere ek olarak, ham tamsayı ve kayan noktalı voltaj çıkışı vardır. Aşağıdaki şema bu süreci özetlemektedir.
 
-![Analog System Diagram](../.gitbook/assets/image%20%2899%29.png)
+![Analog System Diagram](../.gitbook/assets/image%20%28100%29.png)
 
 Sistem birkaç örnek ortalama olduğunda, bölünme, tamsayı değerli sonucun üretilmesinde kaybedilen cevabın kesirli bir kısmıyla sonuçlanır. Aşırı örnekleme, fazladan örneklerin toplandığı ancak ortalama üretmek için bölünmediği bir tekniktir. Sistemin 16 kez fazla örnekleme olduğunu varsayın - bu, döndürülen değerlerin aslında ortalama 16 kat olduğu anlamına gelir. Aşırı örneklenmiş değeri kullanmak, döndürülen değerde ek bir hassasiyet sağlar.
 

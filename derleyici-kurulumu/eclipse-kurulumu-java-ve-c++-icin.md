@@ -58,12 +58,12 @@ Eclipse artık .exe yükleyiciler de sağlamaktadır. İlerideki birkaç talimat
 
 **Eclipse RAR dosyasını açın ve içeriğini Program Dosyaları’na çıkarın**
 
-![Zip dosyas&#x131;n&#x131;n i&#xE7;eri&#x11F;ini &#xE7;&#x131;karmak i&#xE7;in windows taray&#x131;c&#x131;s&#x131; penceresinde dosyay&#x131; sa&#x11F; t&#x131;klay&#x131;n ve &quot;Hepsini &#xE7;&#x131;kar...&quot; se&#xE7;ene&#x11F;ini se&#xE7;in. &#xC7;&#x131;karma konumu soruldu&#x11F;unda varsay&#x131;lan se&#xE7;ene&#x11F;i se&#xE7;in.](../.gitbook/assets/image%20%28100%29.png)
+![Zip dosyas&#x131;n&#x131;n i&#xE7;eri&#x11F;ini &#xE7;&#x131;karmak i&#xE7;in windows taray&#x131;c&#x131;s&#x131; penceresinde dosyay&#x131; sa&#x11F; t&#x131;klay&#x131;n ve &quot;Hepsini &#xE7;&#x131;kar...&quot; se&#xE7;ene&#x11F;ini se&#xE7;in. &#xC7;&#x131;karma konumu soruldu&#x11F;unda varsay&#x131;lan se&#xE7;ene&#x11F;i se&#xE7;in.](../.gitbook/assets/image%20%28101%29.png)
 
  **RAR'dan çıkarılmış eclipse klasörünü Program Dosyaları’na taşıyın**  
 
 
-![](../.gitbook/assets/image%20%28108%29.png)
+![](../.gitbook/assets/image%20%28109%29.png)
 
  Arşivden çıkarılmış klasörü Program Dosyaları, veya kolayca çalıştırmak için daha uygun bir yere taşıyın. Eclipse klasörünün içinde ‘eclipse.exe’ dosyasını göreceksiniz. Bu dosyayı sağ tıklayınca ortaya çıkan ‘Başlangıç menüsüne tuttur’ seçeneği ile programı çalıştırmayı daha kolay bir hale getirebilirsiniz.
 
@@ -145,7 +145,7 @@ Eğer bu aşamada hiçbir dosya görmüyorsanız, veya gösterilen tek dosyanın
 
 ### Eclipse'i yapılandırma
 
-![](../.gitbook/assets/image%20%28110%29.png)
+![](../.gitbook/assets/image%20%28111%29.png)
 
 Eclipse için çok sayıda yapılandırma seçeneği vardır. Not etmek için önerilen bir ayar: "oluşturmadan önce otomatik olarak kaydedin."Bu ayar, projeyi oluşturduğunuzda" çalışma alanınızın " tüm değişikliklerinin kaydedilmesine neden olacaktır. Bunu istemiyorsanız, yapılandırmadan önce değişiklikleri kaydetmeyi unutmayın, aksi takdirde yeniden oluşturulmuş program en yeni güncellemelerinizi yansıtmayacaktır.
 

@@ -31,7 +31,7 @@ Genel olarak Driver Station PC'sine USB üzerinden bağlanan nesneler, bağland�
 
 ### MXP IO Numarlandırılması
 
-![](../.gitbook/assets/image%20%28113%29.png)
+![](../.gitbook/assets/image%20%28114%29.png)
 
 ### Java'da multithreading
 

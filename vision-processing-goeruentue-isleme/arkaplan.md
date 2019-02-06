@@ -77,7 +77,7 @@ print("[" + str(hue + 10) + ", 255, 255]")
 
  Kullanımı ise şu şekildedir :
 
-![](../.gitbook/assets/image%20%28115%29.png)
+![](../.gitbook/assets/image%20%28116%29.png)
 
 Algılatmak istediğiniz rengin kırmızı, yeşil, mavi renk değerlerini almalısınız. Ardından şu komutu kullanmalısınız:
 
@@ -86,82 +86,6 @@ Algılatmak istediğiniz rengin kırmızı, yeşil, mavi renk değerlerini almal
 Lower bound ve upper bound dediğimiz renkleri kopyalayın. İleride kullanacağız.
 
 ### Renk İşleme
-
-Kodlar java için şöyledir:
-
-```java
-package org.usfirst.frc.team6025.robot;
-
-import edu.wpi.first.wpilibj.networktables.NetworkTable; // network table import
-import edu.wpi.first.wpilibj.IterativeRobot;
-import edu.wpi.first.wpilibj.Joystick;
-import edu.wpi.first.wpilibj.Spark;
-import edu.wpi.first.wpilibj.Timer;
-import edu.wpi.first.wpilibj.command.Command;
-import edu.wpi.first.wpilibj.drive.DifferentialDrive;
-import edu.wpi.first.wpilibj.livewindow.LiveWindow;
-import edu.wpi.first.wpilibj.smartdashboard.SendableChooser;
-import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
-
-
-public class Robot extends IterativeRobot {
-	private DifferentialDrive m_robotDrive
-			= new DifferentialDrive(new Spark(0), new Spark(1));
-	private Joystick m_stick = new Joystick(0);
-	private Timer m_timer = new Timer();
-	
-	public static NetworkTable table1 = NetworkTable.getTable("Vision"); // vision adında table çekilioyr
-
-
-	@Override
-	public void robotInit() {
-	}
-
-
-	@Override
-	public void autonomousInit() {
-		m_timer.reset();
-		m_timer.start();
-	}
-	
-	public static double konumX()
-	{
-		return table1.getNumber("X", 0.0); //raspberry pi den gelen x kordinatları
-	}
-	public static double konumY() 
-	{
-		return table1.getNumber("Y", 0.0); //raspberry pi den gelen y kordinatları
-	}
-
-
-	@Override
-	public void autonomousPeriodic() {
-		// Drive for 2 seconds
-		if (m_timer.get() < 2.0) {
-			m_robotDrive.arcadeDrive(0.5, 0.0); // drive forwards half speed
-		} else {
-			m_robotDrive.stopMotor(); // stop robot
-		}
-	}
-
-	@Override
-	public void teleopInit() {
-	}
-
-
-	@Override
-	public void teleopPeriodic() {
-		SmartDashboard.putNumber("Nesnenin X konumu: ", konumX()); // smartdashboarda x konumu yazdır
-		SmartDashboard.putNumber("Nesnenin Y konumu: ", konumY()); // smartdashboarda y konumunu yazdır
-
-	}
-
-
-	@Override
-	public void testPeriodic() {
-	}
-}
-```
 
 Raspberry PI için python yazılımımız şu şekildedir : 
 
@@ -232,9 +156,11 @@ while True: #yazılımımız çalıştığı sürece aşağıdaki işlemleri tek
 
 Komutların açıklamaları kod içerisinde bulunmaktadır. Eğer Raspberry PI için komutu otomatik olarak indirmek isterseniz wget komutunu kullanabilirsiniz.
 
-`wget` [`https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/vision.py`](https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/vision.py)\`\`
+```bash
+wget https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/Color%20Detect/vision.py
+```
 
-Artık robotunuzu enable ettiğinizde , Raspberry PI üzerinden yazılımımızı çalıştırdığımızda değerler otomatik olarak smart dashboarda düşmeye başlayacaktır.
+Artık Java kodlarınızıda yazdıktan sonra robotunuzu enable ettiğinizde , Raspberry PI üzerinden yazılımımızı çalıştırdığımızda değerler otomatik olarak SmartDashboarda düşmeye başlayacaktır.
 
 Kodunuzu Raspberry PI üzerinden çalıştırmak için:
 
@@ -256,7 +182,7 @@ Komutunu girip düzenleyeceğiniz satırı düzenledikten sonra ctrl-x tuşları
 
 ![](../.gitbook/assets/raspi-vision.gif)
 
-![](../.gitbook/assets/image%20%28111%29.png)
+![](../.gitbook/assets/image%20%28112%29.png)
 
 ### Şekil İşleme
 
@@ -330,7 +256,9 @@ cv2.destroyAllWindows()
 
 Komutların açıklamaları kod içerisinde bulunmaktadır. Eğer Raspberry PI için komutu otomatik olarak indirmek isterseniz wget komutunu kullanabilirsiniz.
 
-`wget` [`https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/circle.py`](https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/circle.py)\`\`
+```bash
+wget https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/Figure%20Detect/circle.py
+```
 
 Artık robotunuzu enable ettiğinizde , Raspberry PI üzerinden yazılımımızı çalıştırdığımızda değerler otomatik olarak smart dashboarda düşmeye başlayacaktır.
 
@@ -344,7 +272,66 @@ Kodunuzu Raspberry PI üzerinden çalıştırmak için:
 
 komutunu kullanmanız yeterli olacaktır. 
 
+### Javadan Değerleri Çekin!
 
+Kütüphaneleri import edin
 
+```java
+import edu.wpi.first.wpilibj.networktables.NetworkTable; // Networktables kütüphanesi
+import edu.wpi.first.wpilibj.smartdashboard.SendableChooser; // smartdashboardan verileri görmek için
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+```
 
+Class'ınızın altına networktables'i tanımlayın
+
+```java
+	public static NetworkTable table1 = NetworkTable.getTable("Vision"); // vision adında table çekiliyor
+```
+
+Değerleri okumak için 2 tane void oluşturalım.
+
+```java
+public static double konumX()
+	{
+		return table1.getNumber("X", 0.0); //raspberry pi den gelen x kordinatları
+	}
+	public static double konumY() 
+	{
+		return table1.getNumber("Y", 0.0); //raspberry pi den gelen y kordinatları
+	}
+```
+
+Değerleri SmartDashboard'a yazdıralım.
+
+```java
+	public void teleopPeriodic() {
+		SmartDashboard.putNumber("Nesnenin X konumu: ", konumX()); // smartdashboarda x konumu yazdır
+		SmartDashboard.putNumber("Nesnenin Y konumu: ", konumY()); // smartdashboarda y konumunu yazdır
+
+	}
+```
+
+Motorlarımız Değerlere göre haraket ettirelim!
+
+```java
+	public void autonomousPeriodic() {
+		if(konumX() < 285) // degerler 285'ten kucukse saga don
+		{
+		sagmotor1.set(1) // sag motorları calistir
+		sagmotor2.set(1)
+		}
+		else if (konumX() > 295) // degerler 295'ten buyukse sola don
+		{
+		solmotor1.set(1) //sol motorlari calistir
+		solmotor2.set(1)
+		}
+
+	}
+```
+
+Kodların tamamına buradan ulaşabilirsiniz : 
+
+{% embed url="https://github.com/enisgetmez/FRC-Vision-Processing/blob/master/Java/robot.java" %}
+
+Artık robotunuzu enable ettiğinizde , yazılımımızı çalıştırdığımızda değerler otomatik olarak SmartDashboard düşmeye başlayacaktır.
 

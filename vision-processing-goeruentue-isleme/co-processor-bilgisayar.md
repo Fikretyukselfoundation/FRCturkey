@@ -87,7 +87,66 @@ Kodunuzu yazıp kaydettikten sonra çalıştırmak için konsoldan şu komutu gi
 
 `python yazilimadi.py`
 
-Artık robotunuzu enable ettiğinizde , yazılımımızı çalıştırdığımızda değerler otomatik olarak smart dashboarda düşmeye başlayacaktır.
+### Javadan Değerleri Çekin!
 
+Kütüphaneleri import edin
 
+```java
+import edu.wpi.first.wpilibj.networktables.NetworkTable; // Networktables kütüphanesi
+import edu.wpi.first.wpilibj.smartdashboard.SendableChooser; // smartdashboardan verileri görmek için
+import edu.wpi.first.wpilibj.smartdashboard.SmartDashboard;
+```
+
+Class'ınızın altına networktables'i tanımlayın
+
+```java
+	public static NetworkTable table1 = NetworkTable.getTable("Vision"); // vision adında table çekiliyor
+```
+
+Değerleri okumak için 2 tane void oluşturalım.
+
+```java
+public static double konumX()
+	{
+		return table1.getNumber("X", 0.0); //raspberry pi den gelen x kordinatları
+	}
+	public static double konumY() 
+	{
+		return table1.getNumber("Y", 0.0); //raspberry pi den gelen y kordinatları
+	}
+```
+
+Değerleri SmartDashboard'a yazdıralım.
+
+```java
+	public void teleopPeriodic() {
+		SmartDashboard.putNumber("Nesnenin X konumu: ", konumX()); // smartdashboarda x konumu yazdır
+		SmartDashboard.putNumber("Nesnenin Y konumu: ", konumY()); // smartdashboarda y konumunu yazdır
+
+	}
+```
+
+Motorlarımız Değerlere göre haraket ettirelim!
+
+```java
+	public void autonomousPeriodic() {
+		if(konumX() < 285) // degerler 285'ten kucukse saga don
+		{
+		sagmotor1.set(1) // sag motorları calistir
+		sagmotor2.set(1)
+		}
+		else if (konumX() > 295) // degerler 295'ten buyukse sola don
+		{
+		solmotor1.set(1) //sol motorlari calistir
+		solmotor2.set(1)
+		}
+
+	}
+```
+
+Kodların tamamına buradan ulaşabilirsiniz : 
+
+{% embed url="https://github.com/enisgetmez/FRC-Vision-Processing/blob/master/Java/robot.java" %}
+
+Artık robotunuzu enable ettiğinizde , yazılımımızı çalıştırdığımızda değerler otomatik olarak SmartDashboard'a düşmeye başlayacaktır.
 

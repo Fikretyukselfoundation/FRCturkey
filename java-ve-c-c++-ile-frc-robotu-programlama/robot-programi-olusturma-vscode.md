@@ -6,7 +6,7 @@ Bu makalede, Visual Studio Kodunda yeni bir WPILib projesi oluşturacağız. Bu 
 
 Ctrl + ÜstKrkt + P'ye tıklamak komut paletini açacaktır. Komut paleti, projeler oluşturmak ve etkileşimde bulunmak için WPILib komutlarını içerir.
 
-![](../.gitbook/assets/image%20%28117%29.png)
+![](../.gitbook/assets/image%20%28118%29.png)
 
 #### WPILib Komutlarına Erişim
 
@@ -50,7 +50,7 @@ Açıldıktan sonra solda proje hiyerarşisini göreceksiniz. Dosyaya çift tık
 
 #### C ++ Konfigürasyonları \(Sadece C ++\)
 
-![](../.gitbook/assets/image%20%28123%29.png)
+![](../.gitbook/assets/image%20%28124%29.png)
 
 C ++ projeleri için IntelliSense'i kurmak için bir adım daha var. Bir projeyi her açtığınızda, C ++ yapılandırmalarını yenilemek isteyen sağ alt köşede bir açılır pencere açmalısınız, IntelliSense'i ayarlamak için Evet'i tıklatın.
 
@@ -68,5 +68,5 @@ Robot projesini oluşturmak için şunlardan birini yapın:
 
 Önceki talimatlardaki üç konumdan herhangi birinde "Deploy Robot Code" u seçerek robot kodunu deploy edin. Bu kodu deploy edecek ve robot programını roboRIO'ya yerleştirecektir. Başarılı olursa, başarılı bir "Oluşturma" mesajı \(2\) göreceksiniz ve RioLog çalışırken robot programından konsol çıkacaktır.
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../.gitbook/assets/image%20%28117%29.png)
 

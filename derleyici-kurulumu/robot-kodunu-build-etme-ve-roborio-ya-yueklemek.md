@@ -1,6 +1,6 @@
 # Robot kodunu build etme ve RoboRIO 'ya yüklemek
 
-![Robot ba&#x15F;lang&#x131;c&#x131;nda &#xE7;al&#x131;&#x15F;mas&#x131; i&#xE7;in program y&#xFC;kleniyor](../.gitbook/assets/image%20%28118%29.png)
+![Robot ba&#x15F;lang&#x131;c&#x131;nda &#xE7;al&#x131;&#x15F;mas&#x131; i&#xE7;in program y&#xFC;kleniyor](../.gitbook/assets/image%20%28119%29.png)
 
 Programınızın roboRIO önyüklemesinin her defasında otomatik olarak çalışmasını sağlamak için, kodunuz roboRIO flash belleğe yüklenmelidir. Böylece robot yeniden başlatıldığında ve maç oynandığında kodunuz sürekli orada olacaktır. Bunu yapmak için:
 
@@ -35,7 +35,7 @@ RoboRIO bu yöntemlerden herhangi biri aracılığıyla erişilebilir ise, Deplo
 
 
 
-![Ba&#x11F;&#x131;ml&#x131;l&#x131;klar](../.gitbook/assets/image%20%28119%29.png)
+![Ba&#x11F;&#x131;ml&#x131;l&#x131;klar](../.gitbook/assets/image%20%28120%29.png)
 
 Bağımlılıklar bölümü roboRİO işlem için gerekli  bağımlılıkları denetler. Şu anda Java için, bu iki bileşenden oluşur:
 
