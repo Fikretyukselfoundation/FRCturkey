@@ -34,9 +34,9 @@
 * [Görüntü İşleme Kaynakları](vision-processing-goeruentue-isleme/untitled.md)
 * [Co-Processor - Raspberry Pi](vision-processing-goeruentue-isleme/arkaplan.md)
 * [Co-Processor - Limelight](vision-processing-goeruentue-isleme/co-processor-limelight.md)
+* [Co-Processor - Cmucam5 Pixy](vision-processing-goeruentue-isleme/co-processor-cmucam5-pixy.md)
 * [Co-Processor - Bilgisayar](vision-processing-goeruentue-isleme/co-processor-bilgisayar.md)
 * [Co-Processor - Hatalar ve Çözümleri](vision-processing-goeruentue-isleme/co-processor-hatalar-ve-coezuemleri.md)
-* [Co-Processor - Cmucam5 Pixy](vision-processing-goeruentue-isleme/co-processor-cmucam5-pixy.md)
 
 ## Genel Programlama
 
