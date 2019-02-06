@@ -161,16 +161,23 @@ Değerleri SmartDashboard'a yazdıralım.
 Motorlarımız Değerlere göre haraket ettirelim!
 
 ```java
-	public void autonomousPeriodic() {
-		if(konumX() < 285) // degerler 285'ten kucukse saga don
+public void autonomousPeriodic() {
+	    if(konumX() == 0)
+	{
+	sagmotor1.set(0);
+	sagmotor2.set(0);
+	solmotor1.set(0);
+	solmotor2.set(0);
+	}
+		else if(konumX() < 285) // degerler 285'ten kucukse saga don
 		{
-		sagmotor1.set(1) // sag motorları calistir
-		sagmotor2.set(1)
+		sagmotor1.set(0.5); // sag motorları calistir
+		sagmotor2.set(0.5);
 		}
 		else if (konumX() > 295) // degerler 295'ten buyukse sola don
 		{
-		solmotor1.set(1) //sol motorlari calistir
-		solmotor2.set(1)
+		solmotor1.set(0.5); //sol motorlari calistir
+		solmotor2.set(0.5);
 		}
 
 	}
