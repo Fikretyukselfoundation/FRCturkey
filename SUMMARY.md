@@ -32,7 +32,7 @@
 ## Vision Processing - Görüntü İşleme
 
 * [Görüntü İşleme Kaynakları](vision-processing-goeruentue-isleme/untitled.md)
-* [Co-Processor - Örnekler](vision-processing-goeruentue-isleme/arkaplan.md)
+* [Co-Processor](vision-processing-goeruentue-isleme/arkaplan.md)
 * [Kurulum](vision-processing-goeruentue-isleme/kurulum.md)
 * [Vision programlama](vision-processing-goeruentue-isleme/vision-programlama.md)
 * [Grip](vision-processing-goeruentue-isleme/grip.md)

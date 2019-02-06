@@ -1,4 +1,4 @@
-# Co-Processor - Örnekler
+# Co-Processor
 
 ## Raspberry Pi
 
