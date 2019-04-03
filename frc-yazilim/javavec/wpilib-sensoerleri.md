@@ -6,7 +6,7 @@ WPI Robotik Kütüphanesi, parçaların FRC kitinde bulunan sensörleri ve endü
 
 #### Desteklenen sensör türleri
 
-![](../.gitbook/assets/image%20%2872%29.png)
+![](../../.gitbook/assets/image%20%2872%29.png)
 
 roboRIO günü, FPGA olursa olsun birçok sensörler ve motorlar robota nasıl bağlandığını hassas ölçümler sağlamak adanmış donanım aracılığıyla tüm yüksek hızlı ölçümleri uygular. Bu, karmaşık gerçek zamanlı yazılım rutinlerini gerektiren önceki sistemlere göre bir gelişmedir. Kütüphane, aşağıda gösterilen kategorilerde algılayıcıları kendiliğinden destekler:
 
@@ -26,7 +26,7 @@ Limit anahtarları genellikle robotlardaki mekanizmaları kontrol etmek için ku
 
 ####  Limit anahtarıyla hangi değerler sağlanır?
 
-![](../.gitbook/assets/image%20%2867%29.png)
+![](../../.gitbook/assets/image%20%2867%29.png)
 
 Limit anahtarları "normalde açılmış" veya "normalde kapalı" çıkışlara sahip olabilir. Düğmeyi kablolamanın olağan yolu, dijital giriş sinyali bağlantısı ile toprak arasındadır. Dijital giriş, şalter açıkken girişi yüksek \(1 değer\) yapacak olan çekme dirençlerine sahiptir, fakat anahtar kapandığında, değer şuan toprağa bağlı olduğu için 0'a gider. Burada gösterilen anahtar hem normalde açık ve normalde kapalı çıkışlara sahiptir.
 
@@ -212,7 +212,7 @@ Bu komut, yukarıdaki alt sistemdeki sayacı başlatır ve ardından motoru hare
 
  **İki eksenli analog ivmeölçer**
 
-![](../.gitbook/assets/image%20%28102%29.png)
+![](../../.gitbook/assets/image%20%28102%29.png)
 
 Yaygın olarak kullanılan bir kısım \(yukarıdaki resimde gösterildiği gibi\) iki eksenli bir ivmeölçerdir. Bu cihaz, devre kartına göre X ve Y eksenlerinde hızlandırma verileri sağlayabilir. WPI Robotik Kütüphanesi'ni, biri X ekseni, diğeri Y ekseni için olmak üzere iki ayrı cihaz olarak değerlendirirsiniz. İvmeölçer, yerçekimi ivmesini ölçerek bir eğim sensörü olarak kullanılabilir. Bu durumda, cihazı yana çevirmek 1000 miliG veya bir tane G gösterir. Gösterilen, robot üzerindeki iki analog girişe bağlı 2 eksenli bir ivmeölçer kartıdır. 
 
@@ -286,7 +286,7 @@ ADXL345 için her iki sınıf ve Dahili İvmeölçer sınıfının tümü ortak 
 
 #### ADXL345 İvmeölçer
 
-![](../.gitbook/assets/image%20%2892%29.png)
+![](../../.gitbook/assets/image%20%2892%29.png)
 
 ADXL345, 2012-2014 KOP'taki sensör kartının bir parçası olarak sağlanan üç eksenli bir ivmeölçerdir. ADXL345, +/- 16g'ye kadar olan hızları ölçebilir ve I2C veya SPI üzerinden iletişim kurabilir. Protokol için bağlantı yönergeleri FRC bileşen veri sayfasında bulunabilir. Ek bilgi Analog Cihazlar ADXL345 veri sayfasında bulunabilir. WPILib, her bir protokol için, veri yolunun ayarlanması ve sensörün etkinleştirilmesinin ayrıntılarını ele alan ayrı bir sınıf sağlar.
 
@@ -511,7 +511,7 @@ Counter nesneler, bir dijital giriş sinyali veya bir analog tetikleyiciden gele
 
 #### Counter genel bakış
 
-![](../.gitbook/assets/image%20%2814%29.png)
+![](../../.gitbook/assets/image%20%2814%29.png)
 
 FPGA'da bulunan ve her biri giriş sinyalinin türüne bağlı olarak birkaç modda çalışabilen 8 adet Yukarı / Aşağı Sayıcı birimi vardır:
 
@@ -524,7 +524,7 @@ FPGA'da bulunan ve her biri giriş sinyalinin türüne bağlı olarak birkaç mo
 
 **Gear-Tooth Modu ve GearTooth sensörleri**
 
-![](../.gitbook/assets/image%20%28104%29.png)
+![](../../.gitbook/assets/image%20%28104%29.png)
 
 GearTooth sensörleri, demirli dişli**ye** veya zincir dişi dişlerine bitişik olarak monte edilecek ve bir dişin ne zaman geçtiğini algılayacak şekilde tasarlanmıştır.  Gear-Tooth sensörü, geçmekte olan dişlerin neden olduğu tarladaki değişimleri ölçebilen bir mıknatıs ve katı-hal cihazı kullanan bir Hall-Effect cihazdır. Yukarıdaki resim, metal dişli rotasyonunu ölçmek için monte edilmiş GearTooth sensörünü göstermektedir. Plastik dişliye bir metal dişli bağlandığına dikkat edin. Gear Tooth sensörünün dönüşü tespit etmek için onun tarafından geçen bir demir materyaline ihtiyacı vardır.
 
@@ -645,7 +645,7 @@ Enkoderler, bir eğirme milinin dönüşünü ölçmek için cihazlardır. Enkod
 
 **Quadrature Enkoder Genel Bakış**
 
-![](../.gitbook/assets/image%20%2833%29.png)
+![](../../.gitbook/assets/image%20%2833%29.png)
 
 Dörtlü bir enkoder, 90 derece faz dışı iki algılama elemanından oluşan şaft dönüşünü ölçen bir cihazdır. FRC'de tipik olarak kullanılan en yaygın ****enkoder türü, şeritli veya yarık kod tekerleğine ve bir tanesi iki ayrı 90 derece aralıklı bir veya daha fazla ışık kaynağı \(LED\) kullanan bir optik enkoderdir \(bunlar, iletimi algılamak için LED'in karşısında bulunabilirler\) yansımayı ölçmek için LED ile aynı tarafta\). Sinyaller arasındaki faz farkı, hangi sinyalin diğerini "yönlendirdiğini" belirleyerek dönme yönünü tespit etmek için kullanılabilir.
 
@@ -653,7 +653,7 @@ Enkoderler vs Counters
   
 
 
-![](../.gitbook/assets/image%20%2853%29.png)
+![](../../.gitbook/assets/image%20%2853%29.png)
 
 FRC FPGA, 2 kanallı bir dörtlü enkoder sinyalin 4x kod çözme işlemini yapabilen 8 adet Quadrature dekoder modülüne sahiptir. Bu, modülün, her bir kanalın her birindeki her bir darbenin yükselen ve düşen kenarlarını, kod çarkındaki her şerit için 4 kenara sahip olacak şekilde sayması anlamına gelir. Quadrature dekoder modülü ayrıca, her bir devir başına bir puls üreten bazı enkoderlerde  özellik olan bir endeks kanalını idare edebilir. Counter FPGA modülleri, bir kanalın yükselen veya yükselen ve düşen kenarlarının sayıldığı ve ikinci kanalın yönü belirlemek için kullanıldığı 1x veya 2x kod çözme için kullanılır. Her iki durumda da, tüm kareleme encoderler için Encoder sınıfının kullanılması tavsiye edilir; sınıf, seçtiğiniz kodlama türüne göre uygun FPGA modülünü atayacaktır.
 
@@ -746,7 +746,7 @@ Aşağıdaki değerler Enkoderden alınabilir:
 
 RoboRIO Analog to Digital modülünün daha basit kontrol cihazlarında bulunmayan bazı özellikleri vardır. Analog kanalları, yuvarlak bir robin tarzında otomatik olarak örnekleyerek, 500 ks / s \(500.000 örnek / saniye\) bir kombine örnek oranı sağlar. Bu kanallar, program tarafından kullanılan değeri sağlamak için isteğe bağlı olarak aşırı örneklenebilir ve ortalaması alınabilir. Ortalama değerlere ek olarak, ham tamsayı ve kayan noktalı voltaj çıkışı vardır. Aşağıdaki şema bu süreci özetlemektedir.
 
-![Analog System Diagram](../.gitbook/assets/image%20%28100%29.png)
+![Analog System Diagram](../../.gitbook/assets/image%20%28100%29.png)
 
 Sistem birkaç örnek ortalama olduğunda, bölünme, tamsayı değerli sonucun üretilmesinde kaybedilen cevabın kesirli bir kısmıyla sonuçlanır. Aşırı örnekleme, fazladan örneklerin toplandığı ancak ortalama üretmek için bölünmediği bir tekniktir. Sistemin 16 kez fazla örnekleme olduğunu varsayın - bu, döndürülen değerlerin aslında ortalama 16 kat olduğu anlamına gelir. Aşırı örneklenmiş değeri kullanmak, döndürülen değerde ek bir hassasiyet sağlar.
 
@@ -764,7 +764,7 @@ ai = new AnalogInput(0);`
 
 #### Aşırı Örnekleme ve Ortalama Alma 
 
-![](../.gitbook/assets/image%20%2884%29.png)
+![](../../.gitbook/assets/image%20%2884%29.png)
 
 Ortalama ve aşırı örneklenmiş değerlerin sayısı her zaman ikidir \(aşırı örnekleme / ortalama alma sayısı\). Bu nedenle, aşırı örneklenmiş veya ortalama değerler iki bittir; burada "bitler", yöntemlere geçirilir: SetOversampleBits \(bitler\) ve SetAverageBits \(bitler\). Değerlerin analog giriş kanalından üretildiği gerçek oran, ortalama ve fazla örneklenmiş değerler ile azaltılır. Örneğin, aşırı örneklenmiş bitlerin sayısını 4'e ve ortalama bitleri 2'ye ayarlamak, teslim edilen örneklerin sayısını 16x ve 4x veya toplam 64x azaltacaktır.
 

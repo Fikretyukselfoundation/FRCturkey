@@ -12,7 +12,7 @@ description: >-
 
 #### AttributeError: 'NoneType' object has no attribute 'shape' hatası
 
-![](../.gitbook/assets/hata.png)
+![](../../.gitbook/assets/hata.png)
 
 Bu hatayı alma sebebiniz yazılımımızın sizin kameranızı tanımamasından kaynaklanmaktadır. Kameranızı Raspberry Pi'ye taktıktan sonra konsola
 
@@ -28,7 +28,7 @@ satırındaki 0 numarasını 1 ile değiştirebilirsiniz. Raspberry Pi'de 4 port
 
 #### No module named 'networktables'
 
-![](../.gitbook/assets/image%20%2840%29.png)
+![](../../.gitbook/assets/image%20%2840%29.png)
 
 Eğer böyle bir hata ile karşılaşıyorsanız pynetworktables kütüphanesini kurarken sıkıntı yaşamışsınız demektir. 
 
@@ -42,13 +42,13 @@ Bu komut pi kullanıcısından sudo kullanıcısına geçmenizi sağladı. Şimd
 
 #### IndentationError: unindent does not match any outer indentation level
 
-![](../.gitbook/assets/image%20%2810%29.png)
+![](../../.gitbook/assets/image%20%2810%29.png)
 
 Bu hata komutun başında bulunan boşlukları sildiğinizi veya fazladan boşluk koyduğunuz anlamına gelir. Python syntax'ı boşluklarla olduğu için yazdığınız komutu algılamaz. Boşlukları kontrol edip tekrar çalıştırmayı deneyin. Eğer boşluklarla ilgli bir problem göremezseniz herhangi bir Python editörü indirip editör ile kodlarınızı kontrol edebilirsiniz. Editörler bu tarz problemleri kendiliğinden fark edip düzeltirler.
 
 #### Reflektörün beyaz yansıması
 
-![](../.gitbook/assets/image%20%2882%29.png)
+![](../../.gitbook/assets/image%20%2882%29.png)
 
 Bu problem bir çok farklı sebepten kaynaklanıyor olabilir.
 
@@ -59,7 +59,7 @@ Başlıca sebepleri:
 * Kamera ve ledlerin konumu
 * Kullandığınız reflector
 
-![](../.gitbook/assets/image.png)
+![](../../.gitbook/assets/image.png)
 
 Bunun için Wpilib'in yazdığı bir makale bulunmakta. Bu makaleyi okuyarak problemi çözebilirsiniz. 
 
@@ -67,7 +67,7 @@ Bunun için Wpilib'in yazdığı bir makale bulunmakta. Bu makaleyi okuyarak pro
 
 Yaşadıkları problemleri ve çözümleri bizlere aktaran \#6038 ITOBOT takımına ve \#6025 Adroit Anroids takımına teşekkürler!
 
-![](../.gitbook/assets/16387065_1425006810884280_3894833080608931299_n.jpg)
+![](../../.gitbook/assets/16387065_1425006810884280_3894833080608931299_n.jpg)
 
-![](../.gitbook/assets/12717164_240673006268960_5793277403987910316_n.jpg)
+![](../../.gitbook/assets/12717164_240673006268960_5793277403987910316_n.jpg)
 

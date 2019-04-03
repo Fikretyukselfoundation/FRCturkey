@@ -11,7 +11,7 @@ description: >-
 Pixy, nesneleri en hızlı şekilde tanıtarak onları bulmak için tasarlanmış bütünleşik bir kamera modülü diyebiliriz.  Üzerinde NXP Firmasının LPC4330 Çift çekirdekli mikrodenetleyici, 204Mhz de çalışan 32bit ARM Cortex-M4 ün yanında ayrıca 204Mhz de çalışan 32bit ARM Cortex-M0 işlemcisi bulunmakta.Nesneleri tanıtmak için yapmanız gereken tek şey, nesneyi kameraya gösterip üzerinde bulunan butona basmak. Modül, turuncu, sarı, kırmızı,  mavi, açık mavi, yeşil ve mor olmak üzere 7 rengi tanıyabiliyor. **\(kaynak :** [**https://www.robimek.com/nesnelerin-rengini-ve-konumunu-algilayan-pixy-kamera-modul/**](https://www.robimek.com/nesnelerin-rengini-ve-konumunu-algilayan-pixy-kamera-modul/)**\)**  
 
 
-![](../.gitbook/assets/image%20%2895%29.png)
+![](../../.gitbook/assets/image%20%2895%29.png)
 
 #### **Pixy Teknik Özellikleri**
 
@@ -117,7 +117,7 @@ wget https://raw.githubusercontent.com/enisgetmez/FRC-Vision-Processing/master/P
 
 Artık kodlarınız hazır. Kodlarınızı python pixy.py komutuyla çalıştırabilirsiniz. 
 
-![Raspberry Pi &#x130;le Pixy Kullan&#x131;m&#x131; i&#xE7;eri&#x11F;inde sa&#x11F;lad&#x131;&#x11F;&#x131; kaynaklar i&#xE7;in \#6025 Adroit Anroids tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;rler!](../.gitbook/assets/12717164_240673006268960_5793277403987910316_n.jpg)
+![Raspberry Pi &#x130;le Pixy Kullan&#x131;m&#x131; i&#xE7;eri&#x11F;inde sa&#x11F;lad&#x131;&#x11F;&#x131; kaynaklar i&#xE7;in \#6025 Adroit Anroids tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;rler!](../../.gitbook/assets/12717164_240673006268960_5793277403987910316_n.jpg)
 
 ### Javadan Değerleri Çekin!
 

@@ -20,7 +20,7 @@ Bu kısmı buradan daha detaylı bir şekilde izleyebilirsiniz:
 Konsola girmemiz gereken komutlar şu şekildedir:  
 `sudo apt install python-numpy python-opencv libopencv-dev`
 
-![](../.gitbook/assets/image%20%2813%29.png)
+![](../../.gitbook/assets/image%20%2813%29.png)
 
 y/n seçeneğine y yanıtını verelim. Bu işlem yaklaşık 5 dakika sürebilir.
 
@@ -77,7 +77,7 @@ print("[" + str(hue + 10) + ", 255, 255]")
 
  Kullanımı ise şu şekildedir :
 
-![](../.gitbook/assets/image%20%28116%29.png)
+![](../../.gitbook/assets/image%20%28116%29.png)
 
 Algılatmak istediğiniz rengin kırmızı, yeşil, mavi renk değerlerini almalısınız. Ardından şu komutu kullanmalısınız:
 
@@ -180,9 +180,9 @@ Raspberry Pi ile gelen kodu düzenlemek isterseniz nano komutunu kullanarak düz
 
 Komutunu girip düzenleyeceğiniz satırı düzenledikten sonra ctrl-x tuşlarıyla çıkış yapabilirsiniz. 
 
-![](../.gitbook/assets/raspi-vision.gif)
+![](../../.gitbook/assets/raspi-vision.gif)
 
-![](../.gitbook/assets/image%20%28112%29.png)
+![](../../.gitbook/assets/image%20%28112%29.png)
 
 ### Şekil İşleme
 

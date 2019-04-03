@@ -107,5 +107,5 @@ Daha sonrasında rahatça yazılımınızı güncel bir şekilde kullanabilirsin
 
 ![&#x130;&#xE7;erik i&#xE7;in Imperium \#6874 tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;r ederiz.](../.gitbook/assets/22069962_145808272692611_4428606646524051456_n.jpg)
 
-![&#x130;&#xE7;erik i&#xE7;in Imperium \#6874 tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;r ederiz.](../.gitbook/assets/22069962_145808272692611_4428606646524051456_n.jpg)
+![&#x130;&#xE7;erik i&#xE7;in Imperium \#6874 tak&#x131;m&#x131;na te&#x15F;ekk&#xFC;r ederiz.](../../.gitbook/assets/22069962_145808272692611_4428606646524051456_n.jpg)
 
