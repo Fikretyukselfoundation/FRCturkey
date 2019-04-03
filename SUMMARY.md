@@ -3,6 +3,17 @@
 * [FIRST nedir?](README.md)
 * [Fikret Yüksel Foundation](fikret-yueksel-foundation.md)
 
+## Takım Kurma Rehberi
+
+* [FRC Takım Üyeleri](takim-kurma-rehberi/frc-takim-ueyeleri.md)
+* [FRC Mentorları](takim-kurma-rehberi/frc-mentorlari.md)
+* [Takım İsmi](takim-kurma-rehberi/takim-ismi.md)
+* [Robot Odası ve Demirbaşlar](takim-kurma-rehberi/robot-odasi-ve-demirbaslar.md)
+* [Malzeme Kullanımı ve İş Güvenliği](takim-kurma-rehberi/malzeme-kullanimi-ve-is-guevenligi.md)
+* [Maddi İhtiyaçlar](takim-kurma-rehberi/maddi-ihtiyaclar.md)
+* [Sosyal Medya Yönetimi](takim-kurma-rehberi/sosyal-medya-yoenetimi.md)
+* [Takım Kurma Rehberi](takim-kurma-rehberi/takim-kurma-rehberi.md)
+
 ## Eclipse Kurulumu \(Opsiyonel\)
 
 * [Eclipse Kurulumu \(Java ve C++ için\)](derleyici-kurulumu/eclipse-kurulumu-java-ve-c++-icin.md)
