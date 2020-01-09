@@ -1,6 +1,6 @@
 # FIRST nedir?
 
-FIRST® stands for For Inspiration and Recognition of Science and Technology
+FIRST® ismi, "Bilim ve Teknolojinin Tanınması ve Yayılması İçin" ("For Inspiration and Recognition of Science and Technology") anlamına gelen bir kısaltmadır.
 
 Daha fazla bilgi için [FIRST](https://www.firstinspires.org/)  adresini ziyaret edin
 
