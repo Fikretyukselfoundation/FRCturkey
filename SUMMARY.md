@@ -59,3 +59,7 @@
 
 * [Bu Sayfaya Nasıl İçerik Eklerim?](liste-disi/bu-sayfaya-nasil-icerik-eklerim.md)
 
+## Takımlardan Gelenler
+
+* [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/sneakysneakes.md)
+
