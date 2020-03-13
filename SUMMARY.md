@@ -46,6 +46,8 @@
 
 ## FRC Mekanik
 
+* [Solidworks Özel Tasarım Dişli Kutusu Yapımı](frc-mekanik/dislikutusu.md)
+
 ## İŞ/ÖDÜL/KURALLAR
 
 * [Takım Fonlama](is-oeduel-kurallar/giris.md)
