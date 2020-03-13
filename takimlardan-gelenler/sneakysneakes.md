@@ -1,7 +1,7 @@
 ---
 description: >-
-  Bu içeriğin oluşumunu desteklediği için Sneaky Sneakes 7285 takımına teşekkür
-  ederiz.
+  Bu içeriğin oluşumuna öncülük yaptığı için Sneaky Sneakes 7285 takımına
+  teşekkür ederiz.
 ---
 
 # Geçmiş Yıllara ait robot dökümanları
