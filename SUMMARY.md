@@ -53,6 +53,13 @@
 * [Takım Fonlama](is-oeduel-kurallar/giris.md)
 * [Ödüller](is-oeduel-kurallar/oedueller.md)
 
+## Takımlardan Gelenler
+
+* [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/robotdokumanlari.md)
+* [Geçmiş yıllara ait iş planları](takimlardan-gelenler/gecmis-yillara-ait-is-planlari.md)
+* [Geçmiş yıllara ait robot yazılımları](takimlardan-gelenler/gecmis-yillara-ait-robot-yazilimlari.md)
+* [Geçmiş yıllara ait ödül yazıları](takimlardan-gelenler/gecmis-yillara-ait-oeduel-yazilari.md)
+
 ## Yarışmaya Hazırlanmak
 
 * [Gönüllü Pozisyonları](yarismaya-hazirlanmak/untitled.md)
@@ -60,11 +67,4 @@
 ## Liste Dışı
 
 * [Bu Sayfaya Nasıl İçerik Eklerim?](liste-disi/bu-sayfaya-nasil-icerik-eklerim.md)
-
-## Takımlardan Gelenler
-
-* [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/robotdokumanlari.md)
-* [Geçmiş yıllara ait iş planları](takimlardan-gelenler/gecmis-yillara-ait-is-planlari.md)
-* [Geçmiş yıllara ait robot yazılımları](takimlardan-gelenler/gecmis-yillara-ait-robot-yazilimlari.md)
-* [Geçmiş yıllara ait ödül yazıları](gecmis-yillara-ait-oeduel-yazilari.md)
 
