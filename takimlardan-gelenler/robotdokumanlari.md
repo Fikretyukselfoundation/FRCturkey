@@ -10,9 +10,5 @@ Sneaky Sneakes 7285 takımının teknik robot dökümanlarına aşağıdan ulaş
 
 {% file src="../.gitbook/assets/7285-technical-binder.pdf" caption="Sneaky Sneakes - 2020 Infinite Recharge Robot Teknik Dökümanı" %}
 
-Sneaky Sneakes 7285 2020 Infinite Recharge robot yazılımına aşağıdaki sayfadan ulaşabilirsiniz : 
-
-{% embed url="https://github.com/sneakysnakesfrc/robot-2020" %}
-
-
+Sneaky Sneakes 7285 2020 Infinite Recharge robot yazılımına[ Geçmiş yıllara ait robot yazılımları](https://learn.frcturkey.org/gecmis-yillara-ait-robot-yazilimlari) kısmından ulaşabilirsiniz.
 
