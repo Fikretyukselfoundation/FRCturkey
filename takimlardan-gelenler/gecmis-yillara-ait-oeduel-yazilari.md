@@ -28,7 +28,11 @@ Takımlara ait chairman videolarını youtube'de bulabilirsiniz.
 
 {% file src="../.gitbook/assets/woodie-flowers-8208.pdf" caption="8208 - Woodie Flowers 2020" %}
 
+{% file src="../.gitbook/assets/techtolia-woodie-flower.docx" caption="7748 - Woodie Flowers 2020" %}
+
 {% file src="../.gitbook/assets/2016-nomination-mrs.-drummer.docx" caption="245 - Woodie Flowers 2016" %}
+
+
 
 ### Dean's List
 
