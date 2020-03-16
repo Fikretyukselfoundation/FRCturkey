@@ -64,6 +64,6 @@
 ## Takımlardan Gelenler
 
 * [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/robotdokumanlari.md)
-* [Geçmiş yıllara ait iş planları](gecmis-yillara-ait-is-planlari.md)
-* [Geçmiş yıllara ait robot yazılımları](gecmis-yillara-ait-robot-yazilimlari.md)
+* [Geçmiş yıllara ait iş planları](takimlardan-gelenler/gecmis-yillara-ait-is-planlari.md)
+* [Geçmiş yıllara ait robot yazılımları](takimlardan-gelenler/gecmis-yillara-ait-robot-yazilimlari.md)
 
