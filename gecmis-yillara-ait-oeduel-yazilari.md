@@ -32,5 +32,9 @@ Takımlara ait chairman videolarını youtube'de bulabilirsiniz.
 
 ### Dean's List
 
+{% file src=".gitbook/assets/8208-sude-dagarslan.docx" caption="8208 - Deans List 2020" %}
+
 {% file src=".gitbook/assets/2010-deans\_nomination\_dean\_keithly.pdf" caption="245 - Dean\'s List 2010" %}
+
+
 
