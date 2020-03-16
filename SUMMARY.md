@@ -64,4 +64,5 @@
 ## Takımlardan Gelenler
 
 * [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/sneakysneakes.md)
+* [Geçmiş yıllara ait iş planları](gecmis-yillara-ait-is-planlari.md)
 
