@@ -12,3 +12,7 @@ Sneaky Sneakes 7285 takımının teknik robot dökümanlarına aşağıdan ulaş
 
 Sneaky Sneakes 7285 2020 Infinite Recharge robot yazılımına[ Geçmiş yıllara ait robot yazılımları](https://learn.frcturkey.org/gecmis-yillara-ait-robot-yazilimlari) kısmından ulaşabilirsiniz.
 
+{% file src="../.gitbook/assets/8159-juri-kitapcigi.pdf" caption="Golden Horn - 2020 Jüri Kitapçığı" %}
+
+
+
