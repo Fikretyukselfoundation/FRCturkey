@@ -12,5 +12,5 @@ Rookie yıllarına ait iş planları
 
 {% file src="../.gitbook/assets/8208-business-plan-2020.pdf" caption="8208 Sycamore 2020 Business Plan" %}
 
-
+{% file src="../.gitbook/assets/8159-business-plan-2020-infinite-recharge.pdf" caption="8159 Golden Horn 2020 Business Plan" %}
 
