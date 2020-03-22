@@ -35,7 +35,8 @@
   * [Co-Processor - Limelight](frc-yazilim/vision-processing-goeruentue-isleme/co-processor-limelight.md)
   * [Co-Processor - Cmucam5 Pixy](frc-yazilim/vision-processing-goeruentue-isleme/co-processor-cmucam5-pixy.md)
   * [Co-Processor - Bilgisayar](frc-yazilim/vision-processing-goeruentue-isleme/co-processor-bilgisayar.md)
-  * [Co-Processor - Hatalar ve Çözümleri](frc-yazilim/vision-processing-goeruentue-isleme/co-processor-hatalar-ve-coezuemleri.md)
+* [Görüntü İşleme Workshop](frc-yazilim/goeruentue-isleme-workshop/README.md)
+  * [Co-Processor - Hatalar ve Çözümleri](frc-yazilim/goeruentue-isleme-workshop/co-processor-hatalar-ve-coezuemleri.md)
 * [Diğer Yazılım İçerikleri](frc-yazilim/diger-yazilim-icerikleri/README.md)
   * [FRC için Farklı bir IDE kullanmak](frc-yazilim/diger-yazilim-icerikleri/frc-icin-farkli-bir-ide-kullanmak.md)
 
