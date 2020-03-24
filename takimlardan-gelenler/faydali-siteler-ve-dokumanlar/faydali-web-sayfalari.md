@@ -2,7 +2,9 @@
 
 ## FRC ile ilgili faydalı linkler !
 
-#### [https://learn.frcturkey.org/](https://learn.frcturkey.org/)**\[TR\] Fikret Yüksel Vakfı tarafından içeriği oluşturulan Türkçe bilgiler içeren web sitesi. İçeriğine takımlarda katkı sağlayabilirler.**
+#### [https://learn.frcturkey.org/](https://learn.frcturkey.org/)\*\*\*\*
+
+#### **\[TR\] Fikret Yüksel Vakfı tarafından içeriği oluşturulan Türkçe bilgiler içeren web sitesi. İçeriğine takımlarda katkı sağlayabilirler.**
 
 [**http://www.team358.org/files/programming/ControlSystem2015-2019/labview/index.php**](http://www.team358.org/files/programming/ControlSystem2015-2019/labview/index.php)  
 **\[ENG\] FRC elektroniği ve programlaması hakkında güzel içerik bulunduran bir sitedir. Labview kod resimlerini Labview uygulamasına taşıdığınızda programı da uygulamaya geçirmiş oluyorsunuz:**
