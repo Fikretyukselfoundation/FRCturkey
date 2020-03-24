@@ -57,7 +57,7 @@
 
 ## Takımlardan Gelenler
 
-* [Faydalı Siteler ve Dökümanlar](takimlardan-gelenler/faydali-siteler-ve-doekuemanlar/README.md)
+* [Faydalı Siteler ve Dokumanlar](takimlardan-gelenler/faydali-siteler-ve-doekuemanlar/README.md)
   * [Faydalı Web Sayfaları](takimlardan-gelenler/faydali-siteler-ve-doekuemanlar/faydali-web-sayfalari.md)
 * [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/robotdokumanlari.md)
 * [Geçmiş yıllara ait iş planları](takimlardan-gelenler/gecmis-yillara-ait-is-planlari.md)

@@ -1,2 +1,2 @@
-# Faydalı Siteler ve Dökümanlar
+# Faydalı Siteler ve Dokumanlar
 
