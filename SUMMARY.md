@@ -58,7 +58,9 @@
 ## Takımlardan Gelenler
 
 * [Faydalı Siteler ve Dokumanlar](takimlardan-gelenler/faydali-siteler-ve-dokumanlar/README.md)
-  * [Faydalı Web Sayfaları](takimlardan-gelenler/faydali-siteler-ve-dokumanlar/faydali-web-sayfalari.md)
+  * [Faydalı Web Sayfaları](takimlardan-gelenler/faydali-siteler-ve-dokumanlar/faydali-web-sayfalari/README.md)
+    * [FRC ile ilgili faydalı linkler !](takimlardan-gelenler/faydali-siteler-ve-dokumanlar/faydali-web-sayfalari/frc-ile-ilgili-faydali-linkler.md)
+    * [Genel Faydalı Linkler](takimlardan-gelenler/faydali-siteler-ve-dokumanlar/faydali-web-sayfalari/genel-faydali-linkler.md)
 * [Geçmiş Yıllara ait robot dökümanları](takimlardan-gelenler/robotdokumanlari.md)
 * [Geçmiş yıllara ait iş planları](takimlardan-gelenler/gecmis-yillara-ait-is-planlari.md)
 * [Geçmiş yıllara ait robot yazılımları](takimlardan-gelenler/gecmis-yillara-ait-robot-yazilimlari.md)

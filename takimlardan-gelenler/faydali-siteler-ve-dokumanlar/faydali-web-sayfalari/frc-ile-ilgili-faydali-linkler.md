@@ -1,6 +1,4 @@
-# Faydalı Web Sayfaları
-
-## FRC ile ilgili faydalı linkler !
+# FRC ile ilgili faydalı linkler !
 
 #### [https://learn.frcturkey.org/](https://learn.frcturkey.org/)**\[TR\] Fikret Yüksel Vakfı tarafından içeriği oluşturulan Türkçe bilgiler içeren web sitesi. İçeriğine takımlarda katkı sağlayabilirler.**
 
@@ -42,13 +40,4 @@
 
 \*\*\*\*[**https://www.teamrush27.net/resources**](https://www.teamrush27.net/resources)   
 **\[ENG\] FRC Robot yazılımları, mühendislik defterleri ve juri kitapçıkları bulunduran bir sitedir.**
-
-## **Genel Faydalı Linkler**
-
-[**https://www.swappsforkids.com/**](https://www.swappsforkids.com/)   
-**\[ENG\] Solidworks for Kids çocukların 3 boyutlu tasarım becerilerini geliştirmek için tasarlanmış web tabanlı bir uygulamadır.**
-
-\*\*\*\*[**https://www.tinkercad.com/**](https://www.tinkercad.com/)   
-**\[ENG\] \[TR\] Autodesk firması tarafından çocukların 3 boyutlu tasarım becerilerini geliştirmek için tasarlanmış web tabanlı uygulamasıdır.**  
-
 
