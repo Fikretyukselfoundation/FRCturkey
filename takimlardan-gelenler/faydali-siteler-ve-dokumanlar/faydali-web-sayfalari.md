@@ -2,9 +2,7 @@
 
 ## FRC ile ilgili faydalı linkler !
 
-#### [https://learn.frcturkey.org/](https://learn.frcturkey.org/)\*\*\*\*
-
-#### **\[TR\] Fikret Yüksel Vakfı tarafından içeriği oluşturulan Türkçe bilgiler içeren web sitesi. İçeriğine takımlarda katkı sağlayabilirler.**
+#### [https://learn.frcturkey.org/](https://learn.frcturkey.org/)**\[TR\] Fikret Yüksel Vakfı tarafından içeriği oluşturulan Türkçe bilgiler içeren web sitesi. İçeriğine takımlarda katkı sağlayabilirler.**
 
 [**http://www.team358.org/files/programming/ControlSystem2015-2019/labview/index.php**](http://www.team358.org/files/programming/ControlSystem2015-2019/labview/index.php)  
 **\[ENG\] FRC elektroniği ve programlaması hakkında güzel içerik bulunduran bir sitedir. Labview kod resimlerini Labview uygulamasına taşıdığınızda programı da uygulamaya geçirmiş oluyorsunuz:**
@@ -44,4 +42,13 @@
 
 \*\*\*\*[**https://www.teamrush27.net/resources**](https://www.teamrush27.net/resources)   
 **\[ENG\] FRC Robot yazılımları, mühendislik defterleri ve juri kitapçıkları bulunduran bir sitedir.**
+
+## **Genel Faydalı Linkler**
+
+[**https://www.swappsforkids.com/**](https://www.swappsforkids.com/)   
+**\[ENG\] Solidworks for Kids çocukların 3 boyutlu tasarım becerilerini geliştirmek için tasarlanmış web tabanlı bir uygulamadır.**
+
+\*\*\*\*[**https://www.tinkercad.com/**](https://www.tinkercad.com/)   
+**\[ENG\] \[TR\] Autodesk firması tarafından çocukların 3 boyutlu tasarım becerilerini geliştirmek için tasarlanmış web tabanlı uygulamasıdır.**  
+
 
