@@ -4,7 +4,3 @@
 
 {% page-ref page="genel-faydali-linkler.md" %}
 
-##  
-
-
-

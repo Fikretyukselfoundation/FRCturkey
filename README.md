@@ -8,4 +8,5 @@ FIRST 1989’da gençlerin bilime ve teknolojiye yönelik ilgisini canlandırmak
 
 FIRST'un misyonu gençleri heyecanlı, mentor tabanlı bilim ve teknoloji alanlarında yetenekleri geliştirmelerini sağlayan, inovatif olmaya yönlendiren ve liderlik, iletişim gibi hayat becerilerini geliştirmelerini sağlayan programların bir parçası yaparak teknoloji ve bilim alanında liderler olmaları için ilham vermektir.
 
-Robot'dan daha fazlası ! (More than robots)
+Robot'dan daha fazlası ! \(More than robots\)
+
