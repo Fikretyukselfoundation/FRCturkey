@@ -38,6 +38,7 @@
   * [Co-Processor - Bilgisayar](frc-yazilim/vision-processing-goeruentue-isleme/co-processor-bilgisayar.md)
 * [Görüntü İşleme Workshop](frc-yazilim/goeruentue-isleme-workshop/README.md)
   * [Co-Processor - Hatalar ve Çözümleri](frc-yazilim/goeruentue-isleme-workshop/co-processor-hatalar-ve-coezuemleri.md)
+* [Videolu Java Anlatım](frc-yazilim/videolu-java-anlatim.md)
 * [Diğer Yazılım İçerikleri](frc-yazilim/diger-yazilim-icerikleri/README.md)
   * [FRC için Farklı bir IDE kullanmak](frc-yazilim/diger-yazilim-icerikleri/frc-icin-farkli-bir-ide-kullanmak.md)
 
