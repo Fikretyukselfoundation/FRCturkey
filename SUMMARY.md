@@ -58,6 +58,7 @@
 
 * [Takım Fonlama](is-oeduel-kurallar/giris.md)
 * [Ödüller](is-oeduel-kurallar/oedueller.md)
+* [Video Editleme](is-oeduel-kurallar/video-editleme.md)
 
 ## Takımlardan Gelenler
 
