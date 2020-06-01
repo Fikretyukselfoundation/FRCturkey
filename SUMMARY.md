@@ -51,6 +51,8 @@
 
 * [Andymark Şase Dokumantasyonu](frc-mekanik/andymark-sase-dokumantasyonu.md)
 * [Solidworks Özel Tasarım Dişli Kutusu Yapımı](frc-mekanik/dislikutusu.md)
+* [Pnomatik](frc-mekanik/pnomatik/README.md)
+  * [Pnömatik Hava Kaçakları ve Basit Çözümleri](frc-mekanik/pnomatik/pnoematik-hava-kacaklari-ve-basit-coezuemleri.md)
 
 ## İŞ/ÖDÜL/KURALLAR
 
