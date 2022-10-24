@@ -24,7 +24,7 @@ Başlıca Avantajlar:
 **Linux/OSX**
 
     pip3 install robotpy
-İlgili işletim sistemi için üst kısımdaki komutlar cmd'ye veya Terminal'de çalıştırıldığında Python3 ve PIP kurulu olması takdirde RobotPy'ın ihtiyacınız olacağı çoğu paket sisteminize otomatik olarak inip kurulacaktır. Özellikle Linux kullanıcılarının PIP versiyonlarının en üst sürüm olmasına dikkat etmeleri gerekir.
+İlgili işletim sistemi için üst kısımdaki komutlar cmd'ye veya Terminal'de çalıştırıldığında Python3 ve PIP kurulu olması takdirde RobotPy'ın ihtiyacınız olacağı çoğu paketi sisteminize otomatik olarak inip kurulacaktır. Özellikle Linux kullanıcılarının PIP versiyonlarının en üst sürüm olmasına dikkat etmeleri gerekir.
 
 **Önemli Not**
 Commands gibi opsiyonel/rev-ctre gibi üretici kütüphaneleri de kurmak isteyen takımlar robotpy'a bitişik olarak köşeli parantez içerisinde istedikleri kütüphanenin ismini girip aynı süreci uygulayabilirler. Devlet lisesi takımları FATİH ağının bu kütüphanelerinin hosting'ini yasakladığı için mobil veriden indirmelilerdir.
