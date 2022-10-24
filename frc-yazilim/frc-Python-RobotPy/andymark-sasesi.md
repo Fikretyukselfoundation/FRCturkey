@@ -71,7 +71,7 @@ Burada Motorlarımızı grupladık, sol motorun yönlerini ters çevirdik ve sü
         self.surus = wpilib.drive.DifferentialDrive(self.solMotorGrup, self.sagMotorGrup)
         
         self.stick = wpilib.Joystick(0)
-Rookie takımlara gönderildiği için burada Logitech F310 üzerinden ilerleyeceğiz. Diğer flight stick gibi joystickleri aynı şekilde bağlayıp DriverStation'dan kaçıncı joystick olduğunu, kaçıncı tuşun kaçıncı olduğuna, hangi axis'in kaçıncı axis olduğunu tespit edebilirsiniz.
+Rookie takımlara gönderildiği için burada Logitech F310 üzerinden ilerleyeceğiz. Diğer flight stick gibi joystickleri aynı şekilde bağlayıp DriverStation'dan kaçıncı joystick olduğunu, tuşların ve axis'lerin numaralarını tespit edebilirsiniz.
 
 ## Robotu sürmek (sonunda!)
     def teleopPeriodic(self):
