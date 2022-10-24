@@ -84,4 +84,54 @@ Bir joystickle robotu kontrol ettirebilmemiz için robotun teleop modunda olmas�
 
 ![A test image](https://imgyukle.com/f/2022/10/24/n0f2jA.png)
 
-Kumandamınızın axisleri böyle çalıştığı için sırasıyla 0 ve 2. axisleri argüman olarak verip 0. axis'in yönünü - ile çarparak değiştiriyoruz. Bunu yapmazsak robot
+Kumandamınızın axisleri böyle çalıştığı için sırasıyla 0 ve 2. axisleri argüman olarak verip 0. axis'in yönünü - ile çarparak değiştiriyoruz. Bunu yapmazsak robot sol axis'i ileriye ittirdiğimizde geriye gider.
+
+## Kodu deploy etme
+```
+import wpilib
+import wpilib.drive
+
+class MyRobot(wpilib.TimedRobot):
+
+    def robotInit(self):
+        self.onSolMotor = wpilib.PWMSparkMax(0)
+        self.onSagMotor = wpilib.PWMSparkMax(1)
+        self.arkaSolMotor = wpilib.PWMSparkMax(2)
+        self.arkaSagMotor = wpilib.PWMSparkMax(3)
+        
+        self.solMotorGrup = wpilib.MotorControllerGroup(self.onSolMotor, self.arkaSolMotor)
+        self.sagMotorGrup = wpilib.MotorControllerGroup(self.onSagMotor, self.arkaSagMotor)
+        
+        self.solMotorGrup.setInverted(True)
+        
+        self.surus = wpilib.drive.DifferentialDrive(self.solMotorGrup, self.sagMotorGrup)
+        
+        self.stick = wpilib.Joystick(0)
+
+    def teleopInit(self):
+        pass
+
+    def teleopPeriodic(self):
+        self.surus.arcadeDrive(
+        -self.stick.getRawAxis(0), self.stick.getRawAxis(2), False
+        )
+
+
+if __name__ == "__main__":
+    wpilib.run(MyRobot)
+
+```
+
+Kodumuz hazır, şimdi deploy etmek için robotun ağına bağlanalım.
+
+Windows
+```
+py -3 robot.py deploy
+```
+Linux/OSX
+```
+python3 robot.py deploy
+```
+
+cmd/Terminal'inizin robot.py'ın bulunduğu directory'de olmasına dikkat edin, ilk kez deploy ederken ayrıca sizden takım numaranızı isteyebilir.
+
