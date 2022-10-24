@@ -29,4 +29,4 @@ if __name__ == "__main__":
     wpilib.run(MyRobot)
 ```
 
-Burada WPILib'in TimedRobot base class'ını kullandım. [buradan](../frc-java-temelleri/frc-java-temelleri.md) farklı base class'lara ve ne yaptıklarına ulaşabilirsiniz.
+Burada WPILib'in TimedRobot base class'ını kullandım. [buradan](../frc-java-temelleri/frc-java-temelleri.md) farklı base class'lara ve ne yaptıklarına ulaşabilirsiniz. robotInit, teleopInit, teleopPeriodic fonksiyonlarını yazıp içine şimdilik sadece pass yazıyoruz. Bunlar üzerideki base class'ların anlatıldığı dokümanda anlatılıyor. Size en basitinden Arduino'ya benzer olarak anlatmamı isterseniz; robotInit setup(), teleopInit() her teleop modu aktif edildiğinde çağırılan ayrı bir setup(), teleopPeriodic ise teleop modundayken 50ms arayla çağırılan periodic(). Fonsiyonlarımızın argümanlarına self'i eklemeyi ve 28&29. satırları unutmayın.
