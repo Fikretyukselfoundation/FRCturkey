@@ -75,6 +75,13 @@ Rookie takımlara gönderildiği için burada Logitech F310 üzerinden ilerleyec
 
 ## Robotu sürmek (sonunda!)
     def teleopPeriodic(self):
-        self.surus.arcadeDrive()
+        self.surus.arcadeDrive(
+        -self.stick.getRawAxis(0), self.stick.getRawAxis(2), False
+        )
+
 
 Bir joystickle robotu kontrol ettirebilmemiz için robotun teleop modunda olması lazım, o yüzden sürüş kodumunuzu teleopPeriodic()'in içine yazıyoruz.
+
+![A test image](https://imgyukle.com/f/2022/10/24/n0f2jA.png)
+
+Kumandamınızın axisleri böyle çalıştığı için sırasıyla 0 ve 2. axisleri argüman olarak verip 0. axis'in yönünü - ile çarparak değiştiriyoruz. Bunu yapmazsak robot
