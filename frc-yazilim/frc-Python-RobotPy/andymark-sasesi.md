@@ -1,5 +1,5 @@
 # RobotPy ile Andymark(Kitbot) Şasesi Kullanma
-Bu sayfada kickoff kiti ile Drive base opt-out yapmadığınız takdirde her takıma gönderilen standart 6 tekerli drop center şaseyi TankDrive olarak kodlayacağız.
+Bu sayfada kickoff kiti ile Drive base opt-out yapmadığınız takdirde her takıma gönderilen standart 6 tekerli drop center şaseyi ArcadeDrive olarak kodlayacağız.
 Bu örnek, [RobotPy'ın örnekler kütüphanesi](https://github.com/robotpy/examples/blob/main/arcade-drive/robot.py)'nden alınmıştır. Birçok farklı örnek kodu orada bulabilirsiniz.
 
 ## robot.py İsimli bir Python dosyası oluşturuyoruz.
