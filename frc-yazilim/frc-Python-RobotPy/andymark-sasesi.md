@@ -135,3 +135,6 @@ python3 robot.py deploy
 
 cmd/Terminal'inizin robot.py'ın bulunduğu directory'de olmasına dikkat edin, ilk kez deploy ederken ayrıca sizden takım numaranızı isteyebilir.
 
+
+# Ve işte bu kadar
+### herhangi bir Java/C++ kodu yüklenmiş bir robotu kullanacağınız şekilde DriverStation'ı açın ve RobotPy'ı kendiniz için deneyin!
