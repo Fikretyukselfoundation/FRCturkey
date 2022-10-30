@@ -29,7 +29,7 @@ class PhysicsEngine:
 
         self.physics_controller = physics_controller
 
-    def update_sim(self, now: float, tm_diff: float) -> None:
+    def update_sim(self, now: float, tm_diff: float):
         """
         Called when the simulation parameters for the program need to be
         updated.
@@ -80,7 +80,7 @@ import pyfrc.physics.drivetrains
 from pyfrc.physics.units import units
 ```
 
-## Motorları ve şasemizi simülasyon objeleri olarak tanımlıyoruz.
+### Motorları ve şasemizi simülasyon objeleri olarak tanımlıyoruz.
 
 ```
     def __init__(self, physics_controller: PhysicsInterface, robot: "MyRobot"):
@@ -92,25 +92,68 @@ from pyfrc.physics.units import units
 
         self.physics_controller = physics_controller
 
+        #1
         self.onSolMotor = wpilib.simulation.PWMSim(robot.onSolMotor.getChannel())
         self.onSagMotor = wpilib.simulation.PWMSim(robot.onSagMotor.getChannel())
         self.arkaSolMotor = wpilib.simulation.PWMSim(robot.arkaSolMotor.getChannel())
         self.arkaSagMotor = wpilib.simulation.PWMSim(robot.arkaSagMotor.getChannel())
 
+        #2
         self.drivetrain = pyfrc.physics.drivetrains.FourMotorDrivetrain(
             30 * units.inch,
             1 * units.mps
         )
 ```
 
-### Motorlar
+#### 1. Motorlar
 
 Motorlarımızı PhysicsEngine class'ının içine PWMSim olarak tanımlıyoruz, bunun için robot.motorismi.getChannel() metodunu kullandım. Direk motorların bağlı olduğu PWM kanallarını PWMSim'e argüman olarak yazabilirsiniz ancak kodun esnekliği açısından bu yolu takip etmenizi şiddetle tavsiye ederim.
 
-### Şase
+#### 2. Şase
 
 Şasemizi de 4 motorlu şase olarak tanımladık, bunun için de 2 adet argümanla beraber FourMotorDrivetrain Class'ını kullandık.
 
 1. argüman şasemizin sağ ve sol tekerleri arasındaki mesafe, bu takımınızın şaseyi ne kadar kestiğine göre değişebileceği için örnek olarak ortalama bir açıklık olan 30 inç'i aldım.
 
 2. argüman ise şasemizin m/s cinsinden sürati, bu örnekte 1 m/s olarak aldım ancak siz isterseniz gerçek hayatta bunu hesaplayabilirsiniz. Bu *sallamasyon* değer bu rehberin amaçları için bize yeterli.
+
+### Robotu sanal sahada hareket ettirmek
+
+```
+    def update_sim(self, now: float, tm_diff: float):
+        """
+        Called when the simulation parameters for the program need to be
+        updated.
+        :param now: The current time as a float
+        :param tm_diff: The amount of time that has passed since the last
+                        time that this function was called
+        """
+        #1
+        onSolMotor = self.onSolMotor.getSpeed()
+        onSagMotor = self.onSagMotor.getSpeed()
+        arkaSolMotor = self.arkaSolMotor.getSpeed()
+        arkaSagMotor = self.arkaSagMotor.getSpeed()
+
+        #2
+        saseHizlari = self.drivetrain.calculate(onSolMotor, arkaSolMotor, onSagMotor, arkaSagMotor)
+        
+        #3
+        self.physics_controller.drive(saseHizlari, tm_diff)
+```
+
+ #### 1. Motor hızları
+ Sırasıyla bütün motorlarımızın PWM hızlarını alıyoruz.
+
+ #### 2. Şasenin hareketi
+Drivetrain objemizin .calculate() methodunu kullanarak motorlarımızın PWM hızları ile şasemizin hareketini hesaplıyoruz. Burada motorların hızlarını argüman olarak docstring'e uygun şekilde sıraladığınızdan emin olun!
+
+ #### 3. Pozisyon güncelle
+ Fizik kontrolcümüzün .drive() methodu ile sanal sahamızda robotumuzun pozisyonunu güncelliyoruz.
+ 
+ ### Robotumuzu sürüyoruz
+ 
+ Simülatörü açıp a,d ve e,r tuşları ile robotumuzu sanal sahamızda sürüyoruz.
+ 
+ ![robotsurmek](https://lh3.googleusercontent.com/ZFO4P5CjdlQKW8xM00RyF76vecVIoPsCjDvvP3vf57gOCw4-htV9RyTMC5drkM-yhWs=w2400)
+ 
+ eğer dilerseniz axis tuşlarını daha önce decay rate'i ayarladığımız pencereden değiştirebilirsiniz.
