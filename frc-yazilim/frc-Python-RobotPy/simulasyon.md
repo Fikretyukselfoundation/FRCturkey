@@ -157,3 +157,44 @@ Drivetrain objemizin .calculate() methodunu kullanarak motorlarımızın PWM hı
  ![robotsurmek](https://lh3.googleusercontent.com/ZFO4P5CjdlQKW8xM00RyF76vecVIoPsCjDvvP3vf57gOCw4-htV9RyTMC5drkM-yhWs=w2400)
  
  eğer dilerseniz axis tuşlarını daha önce decay rate'i ayarladığımız pencereden değiştirebilirsiniz.
+ 
+ ## Otonom Taxi
+ 
+ ### Fonksiyonlar
+ 
+ ```
+     def autonomousInit(self):
+        self.taxiTimer = wpilib.Timer()
+        self.taxiTimer.start()
+
+    def autonomousPeriodic(self):
+        if self.taxiTimer.get() < 2:
+            self.surus.arcadeDrive(-1,0)
+    
+    def autonomousExit(self):
+        self.taxiTimer.stop()
+        del(self.taxiTimer)
+ ```
+
+Otonom'da taxi yapmak için bu 3 fonksiyonu kullanıyoruz.
+
+#### autonomousInit
+
+Otonom etabı başladığında 1 kez cağrılacak olan fonksiyon, burayı bir Timer objesi oluşturup saymaya başlamasını ayarlamak için kullanıyoruz.
+
+#### autonomousPeriodic
+
+Otonom etabı boyunca her 50ms'de bir çağırılacak olan fonksiyon, teleopPeriodic gibi.
+
+Burada Timer objemizin .get() fonksiyonunu kullanarak autonomousInit'den beri kaç saniye geçtiğini alıyoruz, eğer 2 saniyeden az ise robotu ileriye sürüyoruz.
+
+#### autonomousExit
+
+Otonom etabı bitince çağırılacak olan fonksiyon, Timer objemizi durdurup robot programımızda siliyoruz; teleop'ta ihtiyacımız olmayacağından dolayı.
+
+### Test edelim
+
+![otonom_etap](https://lh6.googleusercontent.com/Ssj-Xbin_ClgKtjUAKxj-xKHfL6L9s6j_941t-DUDv6KDlXOfNjB4cDulTMb84w24y8=w2400)
+
+
+**...Ve ittifağımız için 2 puan böylelikle hazır!**
